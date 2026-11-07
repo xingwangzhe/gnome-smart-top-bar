@@ -35,6 +35,9 @@ The suite verifies:
 - Normal, maximized, overview and true-fullscreen transitions and actual GTK
   client surface height, including restoration of the top reserved space.
 - A click at application `y=1` reaches the application while the panel is hidden.
+  When revealed, its overlay owns top-edge clicks instead. Re-hiding restores
+  application input, and a true-fullscreen application's top-menu button still
+  receives clicks at `y=1`.
 - One shake stays hidden; four alternating pointer strokes reveal the panel.
 - Hover over the left, middle and right sections keeps a revealed panel visible
   beyond its minimum hold and hide delay. Leaving the bar hides it again.
@@ -47,6 +50,23 @@ The suite verifies:
   If the panel was explicitly revealed and the pointer remains inside it, a
   workspace round-trip instead preserves visibility until the pointer leaves.
 - True fullscreen rejects both the pointer gesture and keyboard fallback.
+- Gesture reveal, overlay clicks, hover, continuous shaking, hiding and closing
+  Shell menus preserve the original Meta focused window and GTK toplevel
+  activation. Unmodified keyboard markers must reach the client exactly once at
+  each checkpoint, independently verifying real keyboard delivery.
+- A client fullscreen request while quick settings is open closes the Shell
+  popup and leaves no invisible keyboard/pointer grab over the fullscreen app.
+- A real GTK native popover becomes visible and mapped before input-priority
+  assertions: edge gestures stay hidden while it is open; keyboard fallback is
+  sampled every 5 milliseconds to catch a transient reveal rather than merely
+  checking the final state. This does not claim universal browser DOM-menu detection.
+- Switching the focused client after two gesture strokes discards the partial
+  gesture without relying on a mouse click, pointer-band exit or policy change.
+- The extension's own compositing hold remains active during reveal, hover and
+  every continuous-shake sample, and is released when fully hidden or truly
+  fullscreen. Rapidly cancelled animated transitions and disable during reveal
+  also restore a clean hidden state on re-enable. This verifies the extension's
+  hold state, not Mutter's private global unredirect counter or hardware scanout.
 - Disabling restores the reserved space and removes the D-Bus object. Re-enabling
   while the application remains maximized hides the panel correctly.
 - Compositor shutdown emits no GJS errors or disposed-actor warnings.

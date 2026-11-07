@@ -3,7 +3,7 @@
 ![隐藏顶栏的虚线长条框图标](icons/smart-top-bar.svg)
 
 [![CI](https://github.com/xingwangzhe/gnome-smart-top-bar/actions/workflows/ci.yml/badge.svg)](https://github.com/xingwangzhe/gnome-smart-top-bar/actions/workflows/ci.yml)
-[Releases](https://github.com/xingwangzhe/gnome-smart-top-bar/releases) · [问题反馈](https://github.com/xingwangzhe/gnome-smart-top-bar/issues) · [自动测试与发布](ci/README.md)
+[Releases](https://github.com/xingwangzhe/gnome-smart-top-bar/releases) · [问题反馈](https://github.com/xingwangzhe/gnome-smart-top-bar/issues) · [自动测试与发布](ci/README.md) · [开源实现与交互论文](docs/interaction-research.md)
 
 最大化、纵向最大化和全高度左右平铺时自动隐藏顶栏，释放顶部空间；普通窗口和桌面显示顶栏。鼠标在顶边左右晃两次才呼出，悬停和菜单操作时持续显示，真全屏保持隐藏。
 
@@ -46,6 +46,8 @@ gnome-extensions disable smart-top-bar@xingwangzhe
 保留原始 panelBox 位置及原生 fullscreen tracking，裁剪其内容，仅平移 Main.panel。隐藏时撤掉顶部 strut，临时呼出保持覆盖方式。没有新增顶部输入区域，没有鼠标抓取，没有常驻外部进程。仅在智能隐藏状态每 40 毫秒被动采样一次，真全屏、概览和普通桌面停止采样。副屏窗口不控制主屏顶栏，切换工作区、显示器变化、锁屏以及禁用时清理状态和资源。
 
 悬停检测读取实际 actor 和 panelBox 的变换后范围，适应面板组件的尺寸调整。当前桌面启用了 Dash in Panel，应用图标与日期组件的位置不被修改。
+
+顶栏显示期间保持 compositor 合成绘制，隐藏动画结束后成对释放，防止覆盖整屏的应用直接扫描输出时出现“面板不可见但仍接收点击”。这是参考同类上游修复采取的保护；真实显卡上的根因与效果仍需实机证据，详见[显示路径与焦点研究](docs/interaction-research.md)。
 
 构建需要 Bun、gettext、GLib schema 工具、zip 和 unzip。运行时测试需要 GJS，以调用 GObject Introspection。
 

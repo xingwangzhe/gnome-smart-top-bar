@@ -30,6 +30,7 @@ export default class SmartTopBar extends Extension {
 
     _enable() {
         this._enabled = true;
+        this._compositingHeld = false;
         this._sources = new Map();
         this._connections = [];
         this._windows = new Map();
@@ -58,7 +59,10 @@ export default class SmartTopBar extends Extension {
             this.disable();
         });
         this._connect(global.display, 'window-created', () => this._scheduleSync());
-        this._connect(global.display, 'notify::focus-window', () => this._scheduleSync());
+        this._connect(global.display, 'notify::focus-window', () => {
+            this._gesture.reset();
+            this._scheduleSync();
+        });
         this._connect(global.display, 'in-fullscreen-changed', () => this._sync());
         this._connect(global.display, 'restacked', () => this._scheduleSync());
         this._connect(global.display, 'grab-op-begin', () => {
@@ -140,9 +144,14 @@ export default class SmartTopBar extends Extension {
                 continue;
             const ids = [];
             for (const signal of ['notify::fullscreen', 'notify::maximized-vertically',
-                'notify::minimized', 'notify::main-monitor', 'workspace-changed',
+                'notify::minimized', 'notify::main-monitor', 'notify::user-time', 'workspace-changed',
                 'position-changed', 'size-changed', 'shown'])
-                ids.push(window.connect(signal, () => this._scheduleSync()));
+                ids.push(window.connect(signal, () => {
+                    if (signal === 'notify::user-time')
+                        this._gesture.reset();
+                    else
+                        this._scheduleSync();
+                }));
             ids.push(window.connect('unmanaged', () => {
                 this._unwatchWindow(window);
                 this._scheduleSync();
@@ -240,16 +249,46 @@ export default class SmartTopBar extends Extension {
 
     _show(show, animate = true) {
         const target = show ? this._originalTranslation : -Math.ceil(this._panel.height) - 2;
-        if (this._target === target)
+        // A maximized surface can become eligible for direct scanout after we
+        // remove its strut. Keep composing while chrome is visible, otherwise
+        // the panel can disappear from scanout while still intercepting input.
+        // See Hide Top Bar's independently diagnosed direct-scanout fix:
+        // https://github.com/tuxor1337/hidetopbar/commit/35194cb0a5ec71d2e0d57fa2cd21fe6cdc840f11
+        if (show)
+            this._holdCompositing();
+        if (this._target === target) {
+            if (!show && this._panel.translation_y === target)
+                this._releaseCompositing();
             return;
+        }
         this._target = target;
         this._panel.remove_transition('translation-y');
         const animations = St.Settings.get().enable_animations;
         if (animate && animations) {
             this._panel.ease({translation_y: target, duration: 140,
-                mode: Clutter.AnimationMode.EASE_OUT_QUAD});
+                mode: Clutter.AnimationMode.EASE_OUT_QUAD,
+                onComplete: () => {
+                    if (this._enabled && !show && this._target === target)
+                        this._releaseCompositing();
+                }});
         } else {
             this._panel.translation_y = target;
+            if (!show)
+                this._releaseCompositing();
+        }
+    }
+
+    _holdCompositing() {
+        if (!this._compositingHeld) {
+            global.compositor.disable_unredirect();
+            this._compositingHeld = true;
+        }
+    }
+
+    _releaseCompositing() {
+        if (this._compositingHeld) {
+            global.compositor.enable_unredirect();
+            this._compositingHeld = false;
         }
     }
 
@@ -261,8 +300,10 @@ export default class SmartTopBar extends Extension {
 
     _toggleReveal() {
         this._sync();
-        if (this._mode !== 'smart-hidden')
+        if (this._mode !== 'smart-hidden' || this._clientPopupOpen()) {
+            this._gesture.reset();
             return;
+        }
         if (this._revealed && !this._heldOpen()) {
             this._clearReveal();
             this._show(false);
@@ -283,6 +324,21 @@ export default class SmartTopBar extends Extension {
         const focus = global.stage.get_key_focus();
         return this._panel.menuManager.activeMenu?.isOpen ||
             (focus && this._panel.contains(focus)) || this._dragging;
+    }
+
+    _clientPopupOpen() {
+        const monitor = Main.layoutManager.primaryMonitor;
+        // Wayland xdg_popup actors can live in window_group rather than
+        // top_window_group. Query compositor window actors across both groups.
+        return global.get_window_actors().some(actor => {
+            const window = actor.meta_window;
+            if (!window || !window.showing_on_its_workspace() ||
+                window.get_monitor() !== monitor?.index)
+                return false;
+            const type = window.get_window_type();
+            return type === Meta.WindowType.POPUP_MENU ||
+                type === Meta.WindowType.DROPDOWN_MENU || type === Meta.WindowType.COMBO;
+        });
     }
 
     _pointerOverPanel(x, y) {
@@ -318,6 +374,14 @@ export default class SmartTopBar extends Extension {
         const [x, y, modifiers] = global.get_pointer();
         const buttons = modifiers & BUTTONS;
         const now = GLib.get_monotonic_time() / 1000;
+        // Native application menus take priority over an optional Shell overlay.
+        // Browser DOM menus have no universal Meta-level semantic signal; true
+        // fullscreen is therefore blocked unconditionally above this check.
+        if (this._clientPopupOpen()) {
+            this._clearReveal();
+            this._show(false, false);
+            return;
+        }
         if (!this._revealed) {
             if (this._dragging) {
                 this._gesture.reset();
@@ -327,6 +391,12 @@ export default class SmartTopBar extends Extension {
             if (this._panel.menuManager.activeMenu?.isOpen ||
                 (focus && this._panel.contains(focus))) {
                 this._reveal();
+                return;
+            }
+            // Shell modal dialogs and other actors' grabs own this interaction.
+            // Never complete an old edge gesture underneath them.
+            if (Main.modalCount > 0 || global.stage.get_grab_actor()) {
+                this._gesture.reset();
                 return;
             }
             if (this._gesture.sample(x, y, now, buttons, monitor))
@@ -361,6 +431,8 @@ export default class SmartTopBar extends Extension {
             focusedWindowId: global.display.focus_window?.get_id() ?? null,
             panelKeyboardFocus: !!(global.stage.get_key_focus() &&
                 this._panel.contains(global.stage.get_key_focus())),
+            compositingHeld: this._compositingHeld,
+            clientPopupOpen: this._clientPopupOpen(),
             monitor: monitor ? {x: monitor.x, y: monitor.y, width: monitor.width,
                 height: monitor.height, index: monitor.index} : null,
             workArea: workArea ? {x: workArea.x, y: workArea.y,
@@ -372,6 +444,7 @@ export default class SmartTopBar extends Extension {
         if (!this._enabled)
             return;
         this._enabled = false;
+        this._releaseCompositing();
         for (const name of this._sources?.keys() ?? [])
             this._cancel(name);
         Main.wm.removeKeybinding('toggle-bar');
