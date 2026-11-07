@@ -1,0 +1,63 @@
+# Smart Top Bar zh_CN translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: zh_CN\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "智能顶栏"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "顶边左右晃两次呼出"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "最大化或平铺时隐藏，真正全屏时不呼出。"
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "鼠标保持在主屏顶边 3 个像素内，连续左右往返两次。"
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "每段横移距离"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "逻辑像素；数值越大越不容易误触。"
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "手势完成时限"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "毫秒；四段交替横移必须在此时间内完成。"
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "隐藏延迟"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "离开后等待的毫秒数；菜单展开或键盘导航时保持显示。"
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "快捷键：Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "临时呼出或收起。真正全屏时无效；按 Super 可进入概览。"

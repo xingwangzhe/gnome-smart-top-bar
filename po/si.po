@@ -1,0 +1,63 @@
+# Smart Top Bar si translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: si\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "ස්මාර්ට් ඉහළ තීරුව"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "පෙන්වීමට ඉහළ දාරයේ දෙවරක් වමට සහ දකුණට සොලවන්න"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "විශාල කළ හෝ ටයිල් කළ කවුළු වලදී සඟවන්න. සැබෑ පූර්ණ තිරයේ කිසිවිටෙක නොපෙන්වන්න."
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "දර්ශකය ප්‍රධාන තිරයේ ඉහළ දාරයෙන් පික්සල් 3ක් තුළ තබා දෙවරක් වමට සහ දකුණට ගෙන යන්න."
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "එක් චලනයක දුර"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "තාර්කික පික්සල්; වැඩි අගයන් අහම්බෙන් පෙන්වීම අඩු කරයි."
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "අභිනයේ කාල සීමාව"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "මාරුවෙන් කරන චලන හතර අවසන් කිරීමට මිලි තත්පර."
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "සැඟවීමේ ප්‍රමාදය"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "ඉවත් වූ පසු මිලි තත්පර; විවෘත මෙනු සහ යතුරුපුවරු සංචලනය තීරුව පෙනෙන ලෙස තබයි."
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "කෙටිමඟ: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "තාවකාලිකව පෙන්වන්න හෝ සඟවන්න. සැබෑ පූර්ණ තිරයේ අක්‍රියයි; දළ විශ්ලේෂණය සඳහා Super ඔබන්න."

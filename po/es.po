@@ -1,0 +1,63 @@
+# Smart Top Bar es translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: es\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "Barra superior inteligente"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "Dos movimientos de ida y vuelta en el borde superior para mostrar"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "Se oculta con ventanas maximizadas o en mosaico. Nunca aparece en pantalla completa real."
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "Mantén el puntero a menos de 3 píxeles del borde superior de la pantalla principal y muévelo de un lado a otro dos veces."
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "Distancia por movimiento"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "Píxeles lógicos; los valores mayores reducen las apariciones accidentales."
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "Tiempo límite del gesto"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "Milisegundos para completar los cuatro movimientos alternos."
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "Retraso al ocultar"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "Milisegundos después de salir; los menús abiertos y la navegación por teclado mantienen la barra visible."
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "Atajo: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "Muestra u oculta temporalmente. Desactivado en pantalla completa real; Super abre la vista general."

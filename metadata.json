@@ -1,0 +1,10 @@
+{
+  "uuid": "smart-top-bar@xingwangzhe",
+  "name": "Smart Top Bar",
+  "description": "Intelligently hide the top bar for maximized and tiled windows. Shake the pointer left and right twice at the top edge to reveal it. Real fullscreen games, videos and F11 windows stay undisturbed. Hovering over the bar or using its menus keeps it visible.\n\nSuper+Ctrl+B temporarily reveals the bar outside true fullscreen. Gesture distance, timing and hide delay are configurable. Translated preferences are included.",
+  "shell-version": ["49", "50", "51"],
+  "version-name": "0.2.0",
+  "gettext-domain": "smart-top-bar",
+  "settings-schema": "org.gnome.shell.extensions.smart-top-bar",
+  "url": "https://github.com/xingwangzhe/gnome-smart-top-bar"
+}

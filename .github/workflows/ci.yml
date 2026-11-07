@@ -1,0 +1,165 @@
+name: GNOME compatibility and release
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ !startsWith(github.ref, 'refs/tags/') }}
+
+jobs:
+  package:
+    name: Unit tests, translations and reproducible package
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.4.4'
+      - name: Install package tools
+        run: sudo apt-get update && sudo apt-get install -y gettext libglib2.0-bin zip unzip
+      - name: Install pinned JavaScript dependencies
+        run: bun install --frozen-lockfile
+      - name: Unit and translation coverage tests
+        run: bun test
+      - name: Build reviewed extension artifact
+        env:
+          RELEASE_TAG: ${{ startsWith(github.ref, 'refs/tags/') && github.ref_name || '' }}
+        run: |
+          if [[ -n "$RELEASE_TAG" ]]; then
+            bun run scripts/package.ts --tag "$RELEASE_TAG"
+          else
+            bun run scripts/package.ts
+          fi
+          bun run scripts/verify-package.ts
+          unzip -t dist/smart-top-bar@xingwangzhe.shell-extension.zip
+          (cd dist && sha256sum --check SHA256SUMS)
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Official GNOME extension static review
+        run: |
+          pip install --disable-pip-version-check shexli==0.2.1 tree-sitter==0.25.2
+          shexli --format=json dist/smart-top-bar@xingwangzhe.shell-extension.zip > dist/shexli.json
+          bun run scripts/check-review.ts dist/shexli.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: extension-package
+          path: dist/*
+          if-no-files-found: error
+
+  gnome:
+    name: GNOME ${{ matrix.shell }} on Fedora ${{ matrix.fedora }}
+    needs: package
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - shell: '49'
+            fedora: '43'
+          - shell: '50'
+            fedora: '44'
+          - shell: '51'
+            fedora: '45'
+    container:
+      image: registry.fedoraproject.org/fedora:${{ matrix.fedora }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: extension-package
+          path: dist
+      - name: Install the actual GNOME Shell and software rendering stack
+        run: |
+          dnf -y install gnome-shell gjs gtk4 libadwaita \
+            mesa-dri-drivers mesa-libEGL mesa-libGL dbus-daemon dbus-x11 \
+            glib2 gettext ripgrep gsettings-desktop-schemas \
+            adwaita-icon-theme xkeyboard-config shadow-utils unzip \
+            xorg-x11-server-Xvfb xorg-x11-xauth glibc-langpack-en
+          gnome-shell --version
+          rpm -q gnome-shell mutter gjs gtk4 mesa-dri-drivers > installed-packages.txt
+          useradd --create-home shelltest
+          mkdir -p artifacts
+          chmod 777 artifacts
+      - name: Real compositor tests at 100% and 200% display scale
+        env:
+          SMART_TOP_BAR_EXPECT_SHELL: ${{ matrix.shell }}
+        run: |
+          for scale in 1 2; do
+            runuser -u shelltest -- env \
+              SMART_TOP_BAR_EXPECT_SHELL="$SMART_TOP_BAR_EXPECT_SHELL" \
+              SMART_TOP_BAR_TEST_SCALE="$scale" \
+              SMART_TOP_BAR_TEST_ZIP="$PWD/dist/smart-top-bar@xingwangzhe.shell-extension.zip" \
+              SMART_TOP_BAR_ARTIFACTS="$PWD/artifacts/scale-$scale" \
+              bash tests/nested-smoke.sh
+          done
+      - name: Render and verify preferences in every shipped locale
+        run: |
+          runuser -u shelltest -- env \
+            SMART_TOP_BAR_TEST_ZIP="$PWD/dist/smart-top-bar@xingwangzhe.shell-extension.zip" \
+            SMART_TOP_BAR_PREFS_ARTIFACTS="$PWD/artifacts/preferences" \
+            bash tests/preferences-locales.sh
+      - name: Preserve version, state transitions and Shell logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gnome-${{ matrix.shell }}-runtime-evidence
+          path: |
+            artifacts/
+            installed-packages.txt
+          if-no-files-found: error
+      - name: Summarize actual runtime evidence
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo '### GNOME ${{ matrix.shell }} runtime evidence'
+            echo 'Tested the packaged extension in a real headless Wayland compositor.'
+            echo '```text'
+            cat installed-packages.txt 2>/dev/null || true
+            for scale in 1 2; do
+              echo "Display scale: $scale"
+              cat "artifacts/scale-$scale/monitor-config.log" 2>/dev/null || true
+              tail -n 1 "artifacts/scale-$scale/results.log" 2>/dev/null || true
+            done
+            echo '```'
+            echo 'Full state transitions and per-language preferences results are attached as workflow artifacts.'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  release:
+    name: Publish version-tagged Release after every GNOME check
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [package, gnome]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: extension-package
+          path: dist
+      - name: Publish only exact stable semantic-version tags
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          [[ "$RELEASE_TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]] || {
+            echo 'Only vMAJOR.MINOR.PATCH tags publish a stable Release.' >&2
+            exit 1
+          }
+          (cd dist && sha256sum --check SHA256SUMS)
+          gh release create "$RELEASE_TAG" \
+            dist/smart-top-bar@xingwangzhe.shell-extension.zip dist/smart-top-bar.png dist/SHA256SUMS \
+            --verify-tag --generate-notes --title "Smart Top Bar $RELEASE_TAG"

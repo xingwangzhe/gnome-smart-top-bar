@@ -1,0 +1,63 @@
+# Smart Top Bar ms translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: ms\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "Bar atas pintar"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "Gerakkan kiri kanan dua kali di tepi atas untuk memaparkan"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "Sembunyikan apabila tetingkap dimaksimumkan atau dijubin. Jangan paparkan dalam skrin penuh sebenar."
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "Kekalkan penuding dalam 3 piksel dari tepi atas skrin utama dan gerakkan kiri kanan dua kali."
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "Jarak setiap gerakan"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "Piksel logik; nilai lebih besar mengurangkan paparan tidak sengaja."
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "Had masa gerak isyarat"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "Milisaat untuk melengkapkan keempat-empat gerakan berselang-seli."
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "Lengah menyembunyikan"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "Milisaat selepas beredar; menu terbuka dan navigasi papan kekunci mengekalkan bar kelihatan."
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "Pintasan: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "Papar atau sembunyikan buat sementara. Dilumpuhkan dalam skrin penuh sebenar; tekan Super untuk gambaran keseluruhan."

@@ -1,0 +1,63 @@
+# Smart Top Bar sw translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: sw\n"
+"Language: sw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "Upau wa juu mahiri"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "Sogeza kushoto na kulia mara mbili kwenye ukingo wa juu kuonyesha"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "Ficha madirisha yanapokuzwa au kupangwa kando. Usionyeshe katika skrini nzima halisi."
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "Weka kishale ndani ya pikseli 3 kutoka ukingo wa juu wa skrini kuu na ukisogeze kushoto na kulia mara mbili."
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "Umbali wa kila mwendo"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "Pikseli za kimantiki; thamani kubwa hupunguza kuonekana bila kukusudia."
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "Kikomo cha muda wa ishara"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "Milisekunde za kukamilisha mienendo yote minne inayopishana."
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "Kuchelewesha kuficha"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "Milisekunde baada ya kuondoka; menyu zilizo wazi na urambazaji wa kibodi huweka upau wazi."
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "Njia ya mkato: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "Onyesha au ficha kwa muda. Haifanyi kazi katika skrini nzima halisi; bonyeza Super kufungua muhtasari."

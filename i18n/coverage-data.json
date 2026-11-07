@@ -1,0 +1,2927 @@
+{
+  "source": "https://github.com/unicode-org/cldr-json/blob/7d2b9cb11cec08f4d333ad73209deb3df0711c3b/cldr-json/cldr-core/supplemental/territoryInfo.json",
+  "commit": "7d2b9cb11cec08f4d333ad73209deb3df0711c3b",
+  "cldrVersion": "49",
+  "sourceSha256": "c8aa7654c87de234118f14ada0e1466eb09467bed4048da7eab3e7e63ffe335d",
+  "territories": {
+    "AC": {
+      "population": 940,
+      "languages": {
+        "en": 99
+      }
+    },
+    "AD": {
+      "population": 85370,
+      "languages": {
+        "ca": 51,
+        "es": 43,
+        "fr": 6.8
+      }
+    },
+    "AE": {
+      "population": 10032200,
+      "languages": {
+        "ar": 78,
+        "bal": 2.3,
+        "en": 50,
+        "fa": 1.9,
+        "ml": 7,
+        "ps": 2.9
+      }
+    },
+    "AF": {
+      "population": 40121600,
+      "languages": {
+        "bgn": 0.63,
+        "fa": 50,
+        "haz": 5.9,
+        "kaa": 0.0084,
+        "kk_Arab": 0.005,
+        "prd": 1.2,
+        "ps": 43,
+        "tk": 1.7,
+        "ug": 0.0075,
+        "uz_Arab": 4.7
+      }
+    },
+    "AG": {
+      "population": 102634,
+      "languages": {
+        "en": 86,
+        "pt": 1.6
+      }
+    },
+    "AI": {
+      "population": 19416,
+      "languages": {
+        "en": 95
+      }
+    },
+    "AL": {
+      "population": 3107100,
+      "languages": {
+        "el": 1.9,
+        "mk": 0.47,
+        "sq": 100
+      }
+    },
+    "AM": {
+      "population": 2976770,
+      "languages": {
+        "az": 0,
+        "hy": 99,
+        "ku": 3.3,
+        "ku_Cyrl": 3.3,
+        "ru": 65
+      }
+    },
+    "AO": {
+      "population": 37202100,
+      "languages": {
+        "kmb": 25,
+        "ln": 0.67,
+        "pt": 67,
+        "umb": 29
+      }
+    },
+    "AQ": {
+      "population": 300,
+      "languages": {
+        "und": 100
+      }
+    },
+    "AR": {
+      "population": 46994400,
+      "languages": {
+        "cy": 0.066,
+        "en": 7,
+        "es": 100,
+        "gn": 0.047
+      }
+    },
+    "AS": {
+      "population": 43895,
+      "languages": {
+        "en": 97,
+        "sm": 99
+      }
+    },
+    "AT": {
+      "population": 8967980,
+      "languages": {
+        "bar": 95,
+        "de": 97,
+        "en": 73,
+        "fr": 13,
+        "hr": 1.2,
+        "hu": 0.26,
+        "it": 9,
+        "sl": 0.37
+      }
+    },
+    "AU": {
+      "population": 26768600,
+      "languages": {
+        "en": 96,
+        "hnj": 0.0082,
+        "it": 1.9,
+        "wbp": 0.0093,
+        "zh_Hant": 2.1
+      }
+    },
+    "AW": {
+      "population": 125063,
+      "languages": {
+        "en": 2.4,
+        "nl": 97,
+        "pap": 61
+      }
+    },
+    "AX": {
+      "population": 26200,
+      "languages": {
+        "sv": 99
+      }
+    },
+    "AZ": {
+      "population": 10650200,
+      "languages": {
+        "az": 89,
+        "az_Cyrl": 9.9,
+        "ku": 0.24,
+        "ku_Cyrl": 0.24,
+        "tkr": 0.16,
+        "tly": 9.8,
+        "ttt": 0.22
+      }
+    },
+    "BA": {
+      "population": 3798670,
+      "languages": {
+        "bs": 99,
+        "bs_Cyrl": 99,
+        "en": 45,
+        "hr": 12,
+        "sr": 10,
+        "sr_Latn": 10
+      }
+    },
+    "BB": {
+      "population": 304139,
+      "languages": {
+        "en": 100
+      }
+    },
+    "BD": {
+      "population": 168697000,
+      "languages": {
+        "bn": 98,
+        "ccp": 0.22,
+        "en": 18,
+        "grt": 0.073,
+        "mni": 0.011,
+        "mro": 0.018,
+        "my": 0.21,
+        "rhg": 0.53,
+        "rkt": 6.5,
+        "syl": 5
+      }
+    },
+    "BE": {
+      "population": 11977600,
+      "languages": {
+        "de": 22,
+        "en": 59,
+        "fr": 38,
+        "nl": 55,
+        "vls": 10,
+        "wa": 5.8
+      }
+    },
+    "BF": {
+      "population": 23042200,
+      "languages": {
+        "dyu": 32,
+        "ff": 0,
+        "ff_Adlm": 0,
+        "fr": 25,
+        "mos": 40
+      }
+    },
+    "BG": {
+      "population": 6782660,
+      "languages": {
+        "bg": 100,
+        "de": 8,
+        "en": 25,
+        "ru": 23,
+        "tr": 11
+      }
+    },
+    "BH": {
+      "population": 1566890,
+      "languages": {
+        "ar": 87,
+        "ml": 3.3
+      }
+    },
+    "BI": {
+      "population": 13590100,
+      "languages": {
+        "en": 0.046,
+        "fr": 59,
+        "rn": 63,
+        "sw": 0.047
+      }
+    },
+    "BJ": {
+      "population": 14697100,
+      "languages": {
+        "blo": 0.3,
+        "fon": 25,
+        "fr": 34,
+        "yo": 6.7
+      }
+    },
+    "BL": {
+      "population": 7086,
+      "languages": {
+        "fr": 85
+      }
+    },
+    "BM": {
+      "population": 72800,
+      "languages": {
+        "en": 92
+      }
+    },
+    "BN": {
+      "population": 491900,
+      "languages": {
+        "en": 1.6,
+        "ms": 93,
+        "ms_Arab": 5,
+        "zh_Hant": 11
+      }
+    },
+    "BO": {
+      "population": 12312000,
+      "languages": {
+        "aro": 0.0009,
+        "ay": 20,
+        "es": 61,
+        "gn": 0.45,
+        "qu": 32
+      }
+    },
+    "BQ": {
+      "population": 20000,
+      "languages": {
+        "nl": 8,
+        "pap": 81
+      }
+    },
+    "BR": {
+      "population": 220052000,
+      "languages": {
+        "de": 0.84,
+        "en": 8,
+        "es": 0.036,
+        "gub": 0.0084,
+        "hrx": 0.59,
+        "it": 0.28,
+        "ja": 0.21,
+        "kgp": 0.024,
+        "ko": 0.021,
+        "pt": 91,
+        "vec": 0.24,
+        "xav": 0.0045,
+        "yrl": 0.01
+      }
+    },
+    "BS": {
+      "population": 410862,
+      "languages": {
+        "en": 100
+      }
+    },
+    "BT": {
+      "population": 884546,
+      "languages": {
+        "dz": 47,
+        "en": 11,
+        "lep": 3.9,
+        "ne": 17,
+        "tsj": 15
+      }
+    },
+    "BV": {
+      "population": 1,
+      "languages": {
+        "no": 100
+      }
+    },
+    "BW": {
+      "population": 2450670,
+      "languages": {
+        "af": 0.24,
+        "en": 81,
+        "tn": 62
+      }
+    },
+    "BY": {
+      "population": 9501450,
+      "languages": {
+        "be": 26,
+        "ru": 71
+      }
+    },
+    "BZ": {
+      "population": 415789,
+      "languages": {
+        "bzj": 50,
+        "cab": 1.9,
+        "en": 77,
+        "es": 55,
+        "kek": 6.5,
+        "mop": 4
+      }
+    },
+    "CA": {
+      "population": 38794800,
+      "languages": {
+        "ar": 2.3,
+        "atj": 0.018,
+        "bla": 0.017,
+        "bn": 0.33,
+        "chp": 0.032,
+        "clc": 0.0022,
+        "cr": 0.013,
+        "crg": 0.0049,
+        "crk": 0.033,
+        "crl": 0.013,
+        "csw": 0.012,
+        "dak": 0.0039,
+        "de": 1.2,
+        "den": 0.006,
+        "dgr": 0.0055,
+        "el": 0.4,
+        "en": 87,
+        "es": 3.2,
+        "fa": 0.61,
+        "fil": 2,
+        "fr": 29,
+        "gu": 0.58,
+        "gwi": 0.0008,
+        "hi": 2.1,
+        "hr": 0.2,
+        "hu": 0.18,
+        "hur": 0.0036,
+        "it": 1.5,
+        "iu": 0.11,
+        "iu_Latn": 0.11,
+        "ja": 0.27,
+        "ko": 0.56,
+        "kwk": 0.0021,
+        "lil": 0.0015,
+        "mic": 0.024,
+        "moe": 0.03,
+        "moh": 0.0041,
+        "nl": 0.3,
+        "nsk": 0.0027,
+        "oj": 0.072,
+        "ojs": 0.042,
+        "ojw": 0.0094,
+        "oka": 0.0018,
+        "pa": 2.6,
+        "pdt": 0.11,
+        "pl": 0.56,
+        "pqm": 0.0021,
+        "pt": 0.93,
+        "ro": 0.32,
+        "ru": 0.85,
+        "so": 0.16,
+        "sr": 0.23,
+        "ta": 0.65,
+        "tr": 0.22,
+        "uk": 0.36,
+        "ur": 1.1,
+        "vi": 0.64,
+        "war": 0.012,
+        "yue": 2,
+        "zh": 2.7
+      }
+    },
+    "CC": {
+      "population": 593,
+      "languages": {
+        "en": 17,
+        "ms_Arab": 84
+      }
+    },
+    "CD": {
+      "population": 115403000,
+      "languages": {
+        "fr": 51,
+        "kg": 1.5,
+        "ln": 3.1,
+        "lol": 0.61,
+        "lu": 2.3,
+        "lua": 9.6,
+        "rw": 0.38,
+        "sw": 50
+      }
+    },
+    "CF": {
+      "population": 5650960,
+      "languages": {
+        "fr": 29,
+        "ln": 0.24,
+        "sg": 49
+      }
+    },
+    "CG": {
+      "population": 6097670,
+      "languages": {
+        "fr": 61,
+        "ln": 2.4
+      }
+    },
+    "CH": {
+      "population": 8860570,
+      "languages": {
+        "de": 76,
+        "en": 45,
+        "fr": 39,
+        "gsw": 66,
+        "it": 15,
+        "lmo": 4.1,
+        "pt": 3.4,
+        "rm": 0.5,
+        "rmo": 0.29,
+        "wae": 0.11
+      }
+    },
+    "CI": {
+      "population": 29981800,
+      "languages": {
+        "bci": 11,
+        "dnj": 4,
+        "fr": 34,
+        "kfo": 0.23,
+        "sef": 4.3
+      }
+    },
+    "CK": {
+      "population": 7761,
+      "languages": {
+        "en": 100
+      }
+    },
+    "CL": {
+      "population": 18664700,
+      "languages": {
+        "arn": 1.5,
+        "en": 9.5,
+        "es": 98
+      }
+    },
+    "CM": {
+      "population": 30966100,
+      "languages": {
+        "agq": 0.14,
+        "ar": 0.39,
+        "bas": 1.2,
+        "bax": 1.2,
+        "bbj": 1.4,
+        "bfd": 0.57,
+        "bkm": 1.3,
+        "bss": 0.54,
+        "bum": 4.6,
+        "byv": 1.1,
+        "dua": 0.48,
+        "en": 38,
+        "ewo": 3.1,
+        "ff": 3.6,
+        "ff_Adlm": 0,
+        "fr": 68,
+        "ha_Arab": 0.14,
+        "jgo": 0.34,
+        "ken": 0.25,
+        "kkj": 0.54,
+        "ksf": 0.32,
+        "maf": 0.74,
+        "mgo": 0.47,
+        "mua": 1,
+        "nmg": 0.029,
+        "nnh": 1.4,
+        "yav": 0.0074,
+        "ybb": 1.6
+      }
+    },
+    "CN": {
+      "population": 1416040000,
+      "languages": {
+        "bo": 0.2,
+        "en": 0.0045,
+        "gan": 1.7,
+        "hak": 2.3,
+        "hnj": 0.004,
+        "hsn": 2.9,
+        "ii": 0.6,
+        "khb": 0.019,
+        "kk_Arab": 0.085,
+        "ko": 0.15,
+        "ky_Arab": 0.034,
+        "lcp": 0.0058,
+        "lis": 0.045,
+        "lzh": 0,
+        "mn_Mong": 0.26,
+        "mww": 0.017,
+        "nan": 1.9,
+        "nxq": 0.024,
+        "ru": 0.001,
+        "stu_Tale": 0,
+        "tdd": 0.019,
+        "ug": 0.55,
+        "uz_Cyrl": 0.0004,
+        "vi": 0.0005,
+        "wuu": 6,
+        "yue": 5.2,
+        "yue_Hans": 5.2,
+        "za": 0.31,
+        "zh": 90
+      }
+    },
+    "CO": {
+      "population": 49588400,
+      "languages": {
+        "es": 93,
+        "guc": 0.27,
+        "yrl": 0.006
+      }
+    },
+    "CP": {
+      "population": 1,
+      "languages": {
+        "und": 100
+      }
+    },
+    "CQ": {
+      "population": 492,
+      "languages": {
+        "en": 98
+      }
+    },
+    "CR": {
+      "population": 5265580,
+      "languages": {
+        "es": 95
+      }
+    },
+    "CU": {
+      "population": 10966000,
+      "languages": {
+        "es": 100
+      }
+    },
+    "CV": {
+      "population": 611014,
+      "languages": {
+        "kea": 91,
+        "pt": 76
+      }
+    },
+    "CW": {
+      "population": 153289,
+      "languages": {
+        "es": 3.7,
+        "nl": 8,
+        "pap": 81
+      }
+    },
+    "CX": {
+      "population": 1692,
+      "languages": {
+        "en": 83
+      }
+    },
+    "CY": {
+      "population": 1320530,
+      "languages": {
+        "ar": 0.098,
+        "ecy": 0.0001,
+        "el": 95,
+        "en": 73,
+        "fr": 6.6,
+        "hy": 0.21,
+        "tr": 23
+      }
+    },
+    "CZ": {
+      "population": 10837900,
+      "languages": {
+        "cs": 98,
+        "de": 15,
+        "en": 27,
+        "pl": 0.49,
+        "sk": 16
+      }
+    },
+    "DE": {
+      "population": 84119100,
+      "languages": {
+        "bar": 17,
+        "da": 2,
+        "de": 91,
+        "dsb": 0.0083,
+        "el": 0.38,
+        "en": 64,
+        "es": 6,
+        "fr": 18,
+        "frr": 0.012,
+        "frs": 0.0024,
+        "gsw": 2.3,
+        "hr": 0.79,
+        "hsb": 0.016,
+        "it": 7,
+        "ksh": 0.3,
+        "ku": 0.66,
+        "nds": 12,
+        "nl": 9,
+        "pfl": 0,
+        "pl": 0.29,
+        "ru": 6,
+        "stq": 0.0012,
+        "swg": 1,
+        "tr": 2.5,
+        "vmf": 6
+      }
+    },
+    "DG": {
+      "population": 500,
+      "languages": {
+        "en": 99
+      }
+    },
+    "DJ": {
+      "population": 994974,
+      "languages": {
+        "aa": 42,
+        "ar": 7.3,
+        "fr": 50,
+        "so": 41
+      }
+    },
+    "DK": {
+      "population": 5973140,
+      "languages": {
+        "da": 93,
+        "de": 47,
+        "en": 86,
+        "fo": 0.38,
+        "jut": 0,
+        "kl": 0.12,
+        "sv": 13
+      }
+    },
+    "DM": {
+      "population": 74661,
+      "languages": {
+        "en": 94
+      }
+    },
+    "DO": {
+      "population": 10815900,
+      "languages": {
+        "en": 0.074,
+        "es": 78
+      }
+    },
+    "DZ": {
+      "population": 47022500,
+      "languages": {
+        "ar": 74,
+        "arq": 83,
+        "en": 7,
+        "fr": 33,
+        "grr": 0.026,
+        "kab": 7.8,
+        "mey": 11,
+        "mzb": 0.36
+      }
+    },
+    "EA": {
+      "population": 150000,
+      "languages": {
+        "es": 98
+      }
+    },
+    "EC": {
+      "population": 18310000,
+      "languages": {
+        "es": 96,
+        "qu": 17,
+        "qug": 5.7
+      }
+    },
+    "EE": {
+      "population": 1193790,
+      "languages": {
+        "en": 50,
+        "et": 71,
+        "fi": 21,
+        "ie": 0.0001,
+        "ru": 56,
+        "vro": 5.7
+      }
+    },
+    "EG": {
+      "population": 111247000,
+      "languages": {
+        "ar": 94,
+        "arz": 64,
+        "cop": 6,
+        "el": 0.061,
+        "en": 35
+      }
+    },
+    "EH": {
+      "population": 652271,
+      "languages": {
+        "ar": 100,
+        "mey": 0.0002
+      }
+    },
+    "ER": {
+      "population": 6343960,
+      "languages": {
+        "aa": 3.6,
+        "ar": 4.9,
+        "byn": 1.3,
+        "en": 59,
+        "ssy": 3.6,
+        "ti": 60,
+        "tig": 18
+      }
+    },
+    "ES": {
+      "population": 47280400,
+      "languages": {
+        "an": 0.052,
+        "ast": 1.3,
+        "ca": 17,
+        "en": 24,
+        "es": 99,
+        "eu": 2,
+        "ext": 0.49,
+        "gl": 7,
+        "oc": 0.01
+      }
+    },
+    "ET": {
+      "population": 118550000,
+      "languages": {
+        "aa": 1.4,
+        "am": 33,
+        "en": 43,
+        "gez": 0,
+        "om": 32,
+        "sid": 3.5,
+        "so": 6,
+        "ti": 6,
+        "wal": 1.8
+      }
+    },
+    "FI": {
+      "population": 5626410,
+      "languages": {
+        "de": 18,
+        "en": 70,
+        "et": 0.11,
+        "fi": 94,
+        "rmf": 0.089,
+        "ru": 0.81,
+        "se": 0.036,
+        "smn": 0.011,
+        "sms": 0.011,
+        "sv": 44
+      }
+    },
+    "FJ": {
+      "population": 951611,
+      "languages": {
+        "en": 94,
+        "fj": 39,
+        "hi": 44,
+        "hif": 41,
+        "rtm": 0.26
+      }
+    },
+    "FK": {
+      "population": 3662,
+      "languages": {
+        "en": 77
+      }
+    },
+    "FM": {
+      "population": 99603,
+      "languages": {
+        "chk": 30,
+        "en": 57,
+        "kos": 8,
+        "pon": 23,
+        "uli": 3,
+        "yap": 6.6
+      }
+    },
+    "FO": {
+      "population": 52933,
+      "languages": {
+        "fo": 95
+      }
+    },
+    "FR": {
+      "population": 68374600,
+      "languages": {
+        "br": 0.83,
+        "ca": 0.17,
+        "co": 0.24,
+        "de": 5,
+        "en": 39,
+        "es": 13,
+        "eu": 0.13,
+        "fr": 97,
+        "frp": 0.094,
+        "gsw": 0.91,
+        "hnj": 0.19,
+        "ia": 0.0002,
+        "it": 1.7,
+        "mww": 0.015,
+        "nl": 0.13,
+        "oc": 3,
+        "pcd": 1.1,
+        "pt": 1.3
+      }
+    },
+    "GA": {
+      "population": 2455110,
+      "languages": {
+        "fr": 63,
+        "puu": 9
+      }
+    },
+    "GB": {
+      "population": 68459100,
+      "languages": {
+        "ar": 0.3,
+        "bn": 0.4,
+        "cy": 1.3,
+        "de": 9,
+        "en": 98,
+        "en_Shaw": 0,
+        "es": 8,
+        "fr": 17,
+        "ga": 0.15,
+        "gd": 0.11,
+        "gu": 2.9,
+        "it": 0.2,
+        "kw": 0.0029,
+        "lt": 0.2,
+        "pa": 3.6,
+        "pi": 0.0002,
+        "pl": 4,
+        "pt": 0.2,
+        "ro": 0.8,
+        "sco": 2.5,
+        "so": 0.2,
+        "ta": 3.2,
+        "tr": 0.2,
+        "ur": 3.5,
+        "zh_Hant": 0.3
+      }
+    },
+    "GD": {
+      "population": 114621,
+      "languages": {
+        "en": 96
+      }
+    },
+    "GE": {
+      "population": 4900960,
+      "languages": {
+        "ab": 2.2,
+        "hy": 7,
+        "ka": 86,
+        "ku_Cyrl": 0.89,
+        "lzz_Geor": 0.002,
+        "os": 2.2,
+        "ru": 9,
+        "xmf": 11
+      }
+    },
+    "GF": {
+      "population": 199509,
+      "languages": {
+        "fr": 62,
+        "gcr": 26,
+        "hnj": 2.4,
+        "zh_Hant": 2.5
+      }
+    },
+    "GG": {
+      "population": 67787,
+      "languages": {
+        "en": 100
+      }
+    },
+    "GH": {
+      "population": 34589100,
+      "languages": {
+        "abr": 5,
+        "ada": 3,
+        "ak": 39,
+        "ee": 11,
+        "en": 21,
+        "ff": 0,
+        "ff_Adlm": 0,
+        "gaa": 2.8,
+        "gur": 3.5,
+        "ha": 0.86,
+        "nzi": 1,
+        "saf": 0.012
+      }
+    },
+    "GI": {
+      "population": 29683,
+      "languages": {
+        "en": 80,
+        "es": 50
+      }
+    },
+    "GL": {
+      "population": 57751,
+      "languages": {
+        "da": 14,
+        "kl": 84
+      }
+    },
+    "GM": {
+      "population": 2523330,
+      "languages": {
+        "en": 40,
+        "ff": 0,
+        "ff_Adlm": 0,
+        "man": 29,
+        "man_Nkoo": 29
+      }
+    },
+    "GN": {
+      "population": 13986200,
+      "languages": {
+        "ff": 26,
+        "ff_Adlm": 0,
+        "fr": 27,
+        "kpe": 3.8,
+        "man": 23,
+        "man_Nkoo": 23,
+        "nqo": 5,
+        "sus": 24
+      }
+    },
+    "GP": {
+      "population": 452776,
+      "languages": {
+        "fr": 84
+      }
+    },
+    "GQ": {
+      "population": 1795830,
+      "languages": {
+        "bvb": 7.9,
+        "es": 87,
+        "fan": 51,
+        "fr": 29,
+        "pt": 0.0001
+      }
+    },
+    "GR": {
+      "population": 10461100,
+      "languages": {
+        "bg": 0.27,
+        "de": 5,
+        "el": 99,
+        "en": 51,
+        "fr": 7.3,
+        "gmy": 0,
+        "grc": 0,
+        "mk": 1.6,
+        "pnt": 3.7,
+        "sq": 0.096,
+        "tr": 1.2,
+        "tsd": 0.0019
+      }
+    },
+    "GS": {
+      "population": 20,
+      "languages": {
+        "en": 100
+      }
+    },
+    "GT": {
+      "population": 18255200,
+      "languages": {
+        "acr": 1.1,
+        "agu": 0.26,
+        "caa": 0.13,
+        "cab": 0.027,
+        "cac": 0.43,
+        "cak": 8.8,
+        "ckz": 0.018,
+        "en": 3.1,
+        "es": 88,
+        "itz": 0.0091,
+        "ixl": 0.89,
+        "jac": 0.31,
+        "kek": 8.8,
+        "kjb": 1.2,
+        "knj": 0.58,
+        "mam": 4.6,
+        "mop": 0.018,
+        "poc": 0.09,
+        "poh": 1.2,
+        "quc": 8.6,
+        "qum": 0.036,
+        "quv": 0.054,
+        "ttc": 0.027,
+        "tzj": 0.61,
+        "usp": 0.045,
+        "xin": 0.027
+      }
+    },
+    "GU": {
+      "population": 169532,
+      "languages": {
+        "ch": 22,
+        "en": 91
+      }
+    },
+    "GW": {
+      "population": 2132330,
+      "languages": {
+        "ff": 0,
+        "ff_Adlm": 0,
+        "fr": 15,
+        "knf": 2.6,
+        "pt": 100
+      }
+    },
+    "GY": {
+      "population": 794099,
+      "languages": {
+        "en": 100
+      }
+    },
+    "HK": {
+      "population": 7297820,
+      "languages": {
+        "en": 51,
+        "yue": 90,
+        "zh": 5,
+        "zh_Hant": 95
+      }
+    },
+    "HM": {
+      "population": 1,
+      "languages": {
+        "und": 100
+      }
+    },
+    "HN": {
+      "population": 9529190,
+      "languages": {
+        "cab": 0.47,
+        "en": 0.44,
+        "es": 91
+      }
+    },
+    "HR": {
+      "population": 4150120,
+      "languages": {
+        "en": 49,
+        "hr": 99,
+        "it": 1.6,
+        "vec": 0.7
+      }
+    },
+    "HT": {
+      "population": 11753900,
+      "languages": {
+        "fr": 42,
+        "ht": 81
+      }
+    },
+    "HU": {
+      "population": 9855750,
+      "languages": {
+        "de": 18,
+        "en": 20,
+        "fr": 1.2,
+        "hr": 0.32,
+        "hu": 100,
+        "ro": 0.99,
+        "sk": 0.12,
+        "sl": 0.051
+      }
+    },
+    "IC": {
+      "population": 2098590,
+      "languages": {
+        "es": 98
+      }
+    },
+    "ID": {
+      "population": 281562000,
+      "languages": {
+        "ace": 1.4,
+        "aoz": 0.27,
+        "ban": 1.8,
+        "ban_Bali": 0,
+        "bbc": 0.92,
+        "bew": 2.1,
+        "bjn": 1.5,
+        "bug": 1.6,
+        "gay": 0.12,
+        "gor": 0.41,
+        "id": 64,
+        "jv": 34,
+        "kaw": 0,
+        "kge": 0.32,
+        "kvr": 0.14,
+        "lbw": 0.13,
+        "ljp": 0.69,
+        "mad": 6.3,
+        "mak": 0.73,
+        "mdr": 0.092,
+        "min": 3,
+        "ms": 3.4,
+        "ms_Arab": 1.2,
+        "mwv": 0.024,
+        "nij": 0.37,
+        "rej": 0.46,
+        "rob": 0.11,
+        "sas": 0.97,
+        "sly": 0.054,
+        "su": 12,
+        "sxn": 0.092,
+        "zh_Hant": 0.92
+      }
+    },
+    "IE": {
+      "population": 5233460,
+      "languages": {
+        "en": 98,
+        "fr": 13,
+        "ga": 22
+      }
+    },
+    "IL": {
+      "population": 9402620,
+      "languages": {
+        "am": 0.59,
+        "apc": 17,
+        "ar": 20,
+        "en": 85,
+        "he": 100,
+        "hu": 1,
+        "lad": 1.3,
+        "ml": 0.085,
+        "pl": 1.5,
+        "ro": 3.7,
+        "ru": 11,
+        "ti": 0.11,
+        "yi": 3
+      }
+    },
+    "IM": {
+      "population": 92269,
+      "languages": {
+        "en": 100,
+        "gv": 1.8
+      }
+    },
+    "IN": {
+      "population": 1409130000,
+      "languages": {
+        "as": 1.3,
+        "awa": 1.9,
+        "bfq": 0.023,
+        "bft": 0.0062,
+        "bfy": 0.037,
+        "bgc": 1.2,
+        "bhb": 0.12,
+        "bhi": 0.092,
+        "bho": 2.3,
+        "bjj": 0.56,
+        "bn": 8.1,
+        "bo": 0.011,
+        "bpy": 0.0068,
+        "bra": 0.0041,
+        "brx": 0.14,
+        "btv": 0.0026,
+        "ccp": 0.028,
+        "dcc": 0.99,
+        "doi": 0.2,
+        "dv": 0.0003,
+        "dz": 0.0002,
+        "en": 19,
+        "gbm": 0.27,
+        "gon": 0.24,
+        "grt": 0.053,
+        "gu": 4.5,
+        "hi": 41,
+        "hi_Latn": 0.1,
+        "hne": 1.1,
+        "hoc": 0.099,
+        "hoj": 0.082,
+        "kfr": 0.075,
+        "kfy": 0.22,
+        "kha": 0.08,
+        "khn": 0.15,
+        "kht": 0.0006,
+        "kn": 3.7,
+        "knn": 0.37,
+        "kok": 0.32,
+        "kru": 0.19,
+        "ks": 0.41,
+        "kxv": 0.0029,
+        "lah": 0.0025,
+        "lep": 0.0035,
+        "lif": 0.0026,
+        "lmn": 0.27,
+        "mag": 1.2,
+        "mai": 1.2,
+        "ml": 3.2,
+        "mni": 0.11,
+        "mr": 7,
+        "mrh": 0.0034,
+        "mtr": 0.097,
+        "mwr": 1.2,
+        "ne": 0.56,
+        "njo": 0.023,
+        "noe": 0.13,
+        "or": 3.2,
+        "pa": 2.8,
+        "pi_Deva": 0,
+        "raj": 0.1,
+        "ria": 0.013,
+        "rkt": 0.43,
+        "sa": 0.0012,
+        "sat": 0.55,
+        "saz": 0.029,
+        "sck": 0.18,
+        "sd": 0.26,
+        "sd_Deva": 0.14,
+        "srx": 0.035,
+        "swv": 0.28,
+        "ta": 5.9,
+        "tcy": 0.15,
+        "te": 7.2,
+        "unr": 0.094,
+        "unx": 0.048,
+        "ur": 5,
+        "wbq": 0.18,
+        "wbr": 0.15,
+        "wsg": 0.021,
+        "wtm": 0.46,
+        "xnr": 0.16
+      }
+    },
+    "IO": {
+      "population": 3500,
+      "languages": {
+        "en": 100
+      }
+    },
+    "IQ": {
+      "population": 42083400,
+      "languages": {
+        "ar": 68,
+        "az_Arab": 1.8,
+        "ckb": 12,
+        "en": 35,
+        "fa": 0.87,
+        "ku_Arab": 10,
+        "lrc": 0.61,
+        "syr": 0.5
+      }
+    },
+    "IR": {
+      "population": 88386900,
+      "languages": {
+        "ar": 2,
+        "az_Arab": 24,
+        "bal": 2,
+        "bgn": 0.56,
+        "bqi": 1.4,
+        "ckb": 0.63,
+        "fa": 75,
+        "gbz": 0.0091,
+        "glk": 4.6,
+        "hy": 0.24,
+        "ka": 0.071,
+        "kaa": 0.67,
+        "kk_Arab": 0.0034,
+        "ku_Arab": 0.56,
+        "lki": 0.76,
+        "lrc": 2.1,
+        "luz": 1.2,
+        "mzn": 5,
+        "prd": 0.5,
+        "ps": 0.16,
+        "rmt": 1.9,
+        "sdh": 4.5,
+        "tk": 2.8
+      }
+    },
+    "IS": {
+      "population": 364036,
+      "languages": {
+        "da": 0.62,
+        "is": 100
+      }
+    },
+    "IT": {
+      "population": 60964900,
+      "languages": {
+        "ca": 0.035,
+        "de": 1.6,
+        "egl": 0.05,
+        "el": 0.035,
+        "en": 34,
+        "fr": 20,
+        "fur": 0.06,
+        "hr": 0.0057,
+        "it": 95,
+        "lij": 0.86,
+        "lld": 0.048,
+        "lmo": 5.7,
+        "mhn": 0.0023,
+        "nap": 0.97,
+        "pms": 1.1,
+        "rgn": 0,
+        "sc": 1.7,
+        "scn": 0.82,
+        "sdc": 0.17,
+        "sl": 0.17,
+        "vec": 1.3
+      }
+    },
+    "JE": {
+      "population": 103387,
+      "languages": {
+        "en": 95
+      }
+    },
+    "JM": {
+      "population": 2823710,
+      "languages": {
+        "en": 98,
+        "jam": 95
+      }
+    },
+    "JO": {
+      "population": 11174000,
+      "languages": {
+        "ady": 1,
+        "apc": 66,
+        "ar": 100,
+        "en": 45
+      }
+    },
+    "JP": {
+      "population": 123202000,
+      "languages": {
+        "ja": 95,
+        "ko": 0.52,
+        "ryu": 0.77
+      }
+    },
+    "KE": {
+      "population": 58246400,
+      "languages": {
+        "ar": 0.046,
+        "dav": 0.82,
+        "ebu": 1.5,
+        "en": 19,
+        "gu": 0.0086,
+        "guz": 4.9,
+        "kam": 7.6,
+        "ki": 17,
+        "kln": 7.6,
+        "luo": 9.8,
+        "luy": 11,
+        "mas": 1.6,
+        "mer": 4,
+        "om": 0.47,
+        "pa": 0.017,
+        "pko": 0.69,
+        "saq": 0.46,
+        "so": 1.3,
+        "sw": 66,
+        "teo": 0.74
+      }
+    },
+    "KG": {
+      "population": 6172100,
+      "languages": {
+        "kaa": 0.019,
+        "ky": 48,
+        "ru": 36
+      }
+    },
+    "KH": {
+      "population": 17063700,
+      "languages": {
+        "cja": 1.6,
+        "kdt": 0.11,
+        "km": 89
+      }
+    },
+    "KI": {
+      "population": 116545,
+      "languages": {
+        "en": 100,
+        "gil": 60
+      }
+    },
+    "KM": {
+      "population": 900141,
+      "languages": {
+        "ar": 66,
+        "fr": 26,
+        "wni": 34,
+        "zdj": 37
+      }
+    },
+    "KN": {
+      "population": 55133,
+      "languages": {
+        "en": 98
+      }
+    },
+    "KP": {
+      "population": 26298700,
+      "languages": {
+        "ko": 88
+      }
+    },
+    "KR": {
+      "population": 52081800,
+      "languages": {
+        "ko": 100
+      }
+    },
+    "KW": {
+      "population": 3138360,
+      "languages": {
+        "ar": 100
+      }
+    },
+    "KY": {
+      "population": 66653,
+      "languages": {
+        "en": 98
+      }
+    },
+    "KZ": {
+      "population": 20260000,
+      "languages": {
+        "de": 6.4,
+        "en": 15,
+        "kaa": 0.018,
+        "kk": 64,
+        "ru": 72,
+        "ug_Cyrl": 2
+      }
+    },
+    "LA": {
+      "population": 7953560,
+      "languages": {
+        "hnj": 3,
+        "kdt": 0.96,
+        "kjg": 5.8,
+        "lo": 69,
+        "mww": 2.3
+      }
+    },
+    "LB": {
+      "population": 5364480,
+      "languages": {
+        "apc": 100,
+        "ar": 86,
+        "en": 40,
+        "fr": 38,
+        "hy": 5.2,
+        "ku_Arab": 1.7
+      }
+    },
+    "LC": {
+      "population": 168038,
+      "languages": {
+        "en": 90
+      }
+    },
+    "LI": {
+      "population": 40272,
+      "languages": {
+        "de": 100,
+        "gsw": 85,
+        "wae": 3.2
+      }
+    },
+    "LK": {
+      "population": 21982600,
+      "languages": {
+        "en": 10,
+        "pi_Sinh": 0,
+        "si": 68,
+        "ta": 15
+      }
+    },
+    "LR": {
+      "population": 5437250,
+      "languages": {
+        "bsq": 14,
+        "bza": 2.9,
+        "dnj": 7.9,
+        "en": 83,
+        "ff": 0,
+        "ff_Adlm": 0,
+        "grb": 9.9,
+        "kpe": 20,
+        "kro": 10,
+        "kss": 4.3,
+        "lir": 74,
+        "men": 1.7,
+        "mev": 7.2,
+        "vai": 3.8,
+        "vai_Latn": 0
+      }
+    },
+    "LS": {
+      "population": 2227550,
+      "languages": {
+        "en": 27,
+        "ss": 2.4,
+        "st": 98,
+        "xh": 0.99,
+        "zu": 14
+      }
+    },
+    "LT": {
+      "population": 2628190,
+      "languages": {
+        "de": 14,
+        "en": 38,
+        "lt": 86,
+        "ru": 80,
+        "sgs": 0
+      }
+    },
+    "LU": {
+      "population": 671254,
+      "languages": {
+        "de": 63,
+        "en": 56,
+        "fr": 92,
+        "lb": 67,
+        "pt": 16
+      }
+    },
+    "LV": {
+      "population": 1801250,
+      "languages": {
+        "en": 46,
+        "ltg": 8.9,
+        "lv": 61,
+        "ru": 38
+      }
+    },
+    "LY": {
+      "population": 7361260,
+      "languages": {
+        "ar": 74
+      }
+    },
+    "MA": {
+      "population": 37387600,
+      "languages": {
+        "ar": 62,
+        "ary": 87,
+        "en": 14,
+        "es": 0.065,
+        "fr": 36,
+        "mey": 0.82,
+        "rif": 4.9,
+        "rif_Tfng": 4.9,
+        "shi": 8.7,
+        "shi_Latn": 8.7,
+        "tzm": 9.8,
+        "zgh": 22
+      }
+    },
+    "MC": {
+      "population": 31813,
+      "languages": {
+        "fr": 97
+      }
+    },
+    "MD": {
+      "population": 3599530,
+      "languages": {
+        "bg": 9.4,
+        "gag": 3.3,
+        "ro": 63,
+        "ru": 3,
+        "uk": 14
+      }
+    },
+    "ME": {
+      "population": 599849,
+      "languages": {
+        "sq": 7.9,
+        "sr": 5,
+        "sr_Latn": 100
+      }
+    },
+    "MF": {
+      "population": 32996,
+      "languages": {
+        "fr": 84
+      }
+    },
+    "MG": {
+      "population": 29452700,
+      "languages": {
+        "en": 18,
+        "fr": 27,
+        "mg": 90
+      }
+    },
+    "MH": {
+      "population": 82011,
+      "languages": {
+        "en": 93,
+        "mh": 73
+      }
+    },
+    "MK": {
+      "population": 2135620,
+      "languages": {
+        "mk": 67,
+        "sq": 25,
+        "tr": 3.5
+      }
+    },
+    "ML": {
+      "population": 21990600,
+      "languages": {
+        "ar": 0.9,
+        "bm": 46,
+        "bm_Nkoo": 2,
+        "bmq": 0.86,
+        "bze": 0.85,
+        "dtm": 1.1,
+        "ffm": 7.7,
+        "fr": 17,
+        "kao": 1,
+        "khq": 1.7,
+        "mwk": 5,
+        "ses": 3.4,
+        "snk": 5.9,
+        "tmh": 2.1
+      }
+    },
+    "MM": {
+      "population": 57527100,
+      "languages": {
+        "hnj": 0.022,
+        "kac": 1.7,
+        "kht": 0.0074,
+        "mnw": 1.5,
+        "mrh": 0.036,
+        "my": 64,
+        "pi_Mymr": 0,
+        "rhg": 1.7,
+        "shn": 6.4,
+        "stu": 0.017
+      }
+    },
+    "MN": {
+      "population": 3281680,
+      "languages": {
+        "kk_Arab": 7.2,
+        "mn": 93,
+        "ru": 0.12,
+        "ug_Cyrl": 0.03,
+        "zh": 1.4
+      }
+    },
+    "MO": {
+      "population": 644426,
+      "languages": {
+        "en": 23,
+        "fil": 3.1,
+        "nan_Hant": 3.7,
+        "pt": 2.3,
+        "yue": 86,
+        "zh": 5,
+        "zh_Hant": 98
+      }
+    },
+    "MP": {
+      "population": 51118,
+      "languages": {
+        "ch": 18,
+        "en": 97
+      }
+    },
+    "MQ": {
+      "population": 436131,
+      "languages": {
+        "fr": 81
+      }
+    },
+    "MR": {
+      "population": 4328040,
+      "languages": {
+        "ar": 85,
+        "ff": 5.7,
+        "ff_Adlm": 0,
+        "fr": 13,
+        "mey": 87,
+        "wo": 0.23
+      }
+    },
+    "MS": {
+      "population": 5468,
+      "languages": {
+        "en": 64
+      }
+    },
+    "MT": {
+      "population": 469730,
+      "languages": {
+        "en": 88,
+        "fr": 13,
+        "it": 56,
+        "mt": 100
+      }
+    },
+    "MU": {
+      "population": 1310500,
+      "languages": {
+        "bho": 8.6,
+        "en": 72,
+        "fr": 73,
+        "mfe": 90,
+        "ta": 2.5,
+        "ur": 5.2
+      }
+    },
+    "MV": {
+      "population": 388858,
+      "languages": {
+        "dv": 98,
+        "en": 75
+      }
+    },
+    "MW": {
+      "population": 21763300,
+      "languages": {
+        "en": 63,
+        "ny": 63,
+        "tog": 0.98,
+        "tum": 8.4,
+        "zu": 0.33
+      }
+    },
+    "MX": {
+      "population": 130740000,
+      "languages": {
+        "en": 13,
+        "es": 83,
+        "maz": 0.34,
+        "nch": 0.19,
+        "nhe": 0.39,
+        "nhw": 0.39,
+        "sei": 0.0007,
+        "vec": 0.0019,
+        "yua": 0.67
+      }
+    },
+    "MY": {
+      "population": 34564800,
+      "languages": {
+        "bjn": 0.014,
+        "bug": 0.079,
+        "dtp": 0.56,
+        "en": 21,
+        "iba": 2.5,
+        "jv": 1.2,
+        "ml": 0.15,
+        "ms": 75,
+        "ta": 4.2,
+        "zh": 17,
+        "zmi": 1.2
+      }
+    },
+    "MZ": {
+      "population": 33351000,
+      "languages": {
+        "mgh": 4.5,
+        "ndc": 9.9,
+        "ngl": 6.8,
+        "ny": 2.6,
+        "pt": 27,
+        "rng": 3.4,
+        "seh": 4.6,
+        "sw": 0.028,
+        "ts": 7.9,
+        "vmw": 13,
+        "yao": 2.4,
+        "zu": 0.0054
+      }
+    },
+    "NA": {
+      "population": 2803660,
+      "languages": {
+        "af": 75,
+        "de": 0.9,
+        "en": 7,
+        "hz": 9.1,
+        "kj": 35,
+        "naq": 11,
+        "ng": 21,
+        "tn": 0.56
+      }
+    },
+    "NC": {
+      "population": 304167,
+      "languages": {
+        "fr": 99
+      }
+    },
+    "NE": {
+      "population": 26342800,
+      "languages": {
+        "ar": 0.21,
+        "dje": 17,
+        "ff": 0,
+        "ff_Adlm": 0,
+        "fr": 13,
+        "fuq": 7,
+        "ha": 41,
+        "tmh": 6,
+        "twq": 0.03
+      }
+    },
+    "NF": {
+      "population": 1748,
+      "languages": {
+        "en": 96
+      }
+    },
+    "NG": {
+      "population": 236747000,
+      "languages": {
+        "amo": 0.0087,
+        "ann": 0,
+        "ar": 0.071,
+        "bin": 0.71,
+        "cch": 0.021,
+        "efi": 1.4,
+        "en": 53,
+        "ff": 0,
+        "ff_Adlm": 0,
+        "fuv": 6.7,
+        "ha": 13,
+        "ha_Arab": 1,
+        "ibb": 1.4,
+        "ig": 13,
+        "kaj": 0.21,
+        "kcg": 0.093,
+        "pcm": 21,
+        "tiv": 1.6,
+        "yo": 13
+      }
+    },
+    "NI": {
+      "population": 6676950,
+      "languages": {
+        "es": 78
+      }
+    },
+    "NL": {
+      "population": 17772400,
+      "languages": {
+        "de": 71,
+        "en": 90,
+        "fr": 19,
+        "fy": 4.3,
+        "gos": 3.6,
+        "id": 1.8,
+        "li": 5.5,
+        "nds": 11,
+        "nl": 100,
+        "rif": 1.2,
+        "tr": 1.2,
+        "zea": 1.4
+      }
+    },
+    "NO": {
+      "population": 5509730,
+      "languages": {
+        "nb": 100,
+        "nn": 25,
+        "no": 100,
+        "se": 0.29
+      }
+    },
+    "NP": {
+      "population": 31122400,
+      "languages": {
+        "awa": 2.2,
+        "bap": 1.5,
+        "bfy": 0.54,
+        "bho": 6.8,
+        "bn": 0.094,
+        "bo": 0.24,
+        "dty": 2.5,
+        "en": 3,
+        "gvr": 0.29,
+        "hi": 0.42,
+        "jml": 3.2,
+        "lep": 0.0091,
+        "lif": 1.1,
+        "mai": 11,
+        "mgp": 1.1,
+        "ne": 44,
+        "new": 3.3,
+        "rjs": 0.44,
+        "suz": 0.13,
+        "taj": 0.43,
+        "tdg": 1.3,
+        "tdh": 0.12,
+        "thl": 2,
+        "thq": 1,
+        "thr": 1.2,
+        "tkt": 0.24,
+        "unr_Deva": 0.018,
+        "xsr": 0.52
+      }
+    },
+    "NR": {
+      "population": 9892,
+      "languages": {
+        "en": 95,
+        "na": 70
+      }
+    },
+    "NU": {
+      "population": 2000,
+      "languages": {
+        "en": 56,
+        "niu": 56
+      }
+    },
+    "NZ": {
+      "population": 5161210,
+      "languages": {
+        "en": 98,
+        "mi": 2.8
+      }
+    },
+    "OM": {
+      "population": 3901990,
+      "languages": {
+        "ar": 81,
+        "bal": 4.9,
+        "fa": 0.94
+      }
+    },
+    "PA": {
+      "population": 4470240,
+      "languages": {
+        "en": 14,
+        "es": 69,
+        "zh_Hant": 0.13
+      }
+    },
+    "PE": {
+      "population": 32600200,
+      "languages": {
+        "ay": 1.6,
+        "es": 73,
+        "qu": 15
+      }
+    },
+    "PF": {
+      "population": 303540,
+      "languages": {
+        "fr": 98,
+        "ty": 31,
+        "zh_Hant": 7.8
+      }
+    },
+    "PG": {
+      "population": 10046200,
+      "languages": {
+        "en": 50,
+        "ho": 2.1,
+        "tpi": 71
+      }
+    },
+    "PH": {
+      "population": 118277000,
+      "languages": {
+        "bik": 3,
+        "bku": 0.0068,
+        "bto": 0.28,
+        "ceb": 24,
+        "cps": 0.66,
+        "en": 64,
+        "es": 31,
+        "fbl": 2.3,
+        "fil": 60,
+        "hil": 8.4,
+        "hnn": 0.016,
+        "ilo": 9.6,
+        "krj": 0.39,
+        "mdh": 1.2,
+        "pag": 1.4,
+        "pam": 2.3,
+        "tbw": 0.0085,
+        "tsg": 1.1,
+        "war": 2.9,
+        "zh_Hant": 0.73
+      }
+    },
+    "PK": {
+      "population": 252364000,
+      "languages": {
+        "bal": 2.6,
+        "bft": 0.18,
+        "bgn": 0.57,
+        "brh": 1.2,
+        "btv": 0.019,
+        "en": 50,
+        "fa": 0.66,
+        "gjk": 0.11,
+        "gju": 0.2,
+        "hnd": 0.41,
+        "hno": 1.7,
+        "khw": 0.15,
+        "ks": 0.069,
+        "kvx": 0.16,
+        "kxp": 0.11,
+        "lah": 40,
+        "mvy": 0.14,
+        "pa_Arab": 70,
+        "ps": 16,
+        "sd": 15,
+        "skr": 12,
+        "tg_Arab": 0.33,
+        "trw": 0.053,
+        "ur": 95
+      }
+    },
+    "PL": {
+      "population": 38746300,
+      "languages": {
+        "be": 0.58,
+        "csb": 0.13,
+        "de": 19,
+        "en": 33,
+        "lt": 0.021,
+        "pl": 96,
+        "prg": 0.0001,
+        "ru": 18,
+        "sli": 0.031,
+        "szl": 1.3,
+        "uk": 0.39
+      }
+    },
+    "PM": {
+      "population": 5132,
+      "languages": {
+        "en": 3.7,
+        "fr": 100
+      }
+    },
+    "PN": {
+      "population": 50,
+      "languages": {
+        "en": 92
+      }
+    },
+    "PR": {
+      "population": 3019450,
+      "languages": {
+        "en": 49,
+        "es": 87
+      }
+    },
+    "PS": {
+      "population": 5385010,
+      "languages": {
+        "apc": 87,
+        "ar": 100
+      }
+    },
+    "PT": {
+      "population": 10207200,
+      "languages": {
+        "en": 27,
+        "es": 10,
+        "fr": 15,
+        "gl": 0.14,
+        "pt": 96
+      }
+    },
+    "PW": {
+      "population": 21864,
+      "languages": {
+        "en": 8.6,
+        "pau": 74
+      }
+    },
+    "PY": {
+      "population": 7522550,
+      "languages": {
+        "aqt": 0.017,
+        "ayo": 0.036,
+        "cag": 0.23,
+        "ceg": 0.03,
+        "de": 2.9,
+        "enl": 0.13,
+        "enx": 0.075,
+        "es": 67,
+        "gn": 69,
+        "gun": 0.16,
+        "guq": 0.024,
+        "gva": 0.0003,
+        "mca": 0.027,
+        "nhd": 0.016,
+        "pta": 0.13,
+        "spn": 0.025,
+        "tmf": 0.027
+      }
+    },
+    "QA": {
+      "population": 2552090,
+      "languages": {
+        "ar": 89,
+        "fa": 11,
+        "ml": 0.25
+      }
+    },
+    "RE": {
+      "population": 787584,
+      "languages": {
+        "fr": 89,
+        "rcf": 71,
+        "ta": 15
+      }
+    },
+    "RO": {
+      "population": 18148200,
+      "languages": {
+        "bg": 0.037,
+        "de": 0.21,
+        "el": 0.023,
+        "en": 31,
+        "es": 10,
+        "fr": 12,
+        "hu": 6.6,
+        "pl": 0.015,
+        "ro": 90,
+        "sr_Latn": 0.12,
+        "tr": 0.13
+      }
+    },
+    "RS": {
+      "population": 6652210,
+      "languages": {
+        "hr": 0.93,
+        "hu": 4.8,
+        "ro": 2.1,
+        "sk": 0.85,
+        "sq": 19,
+        "sr": 99,
+        "sr_Latn": 99,
+        "uk": 0
+      }
+    },
+    "RU": {
+      "population": 140821000,
+      "languages": {
+        "abq": 0.021,
+        "ady": 0.081,
+        "alt": 0.047,
+        "av": 0.48,
+        "az_Cyrl": 0.22,
+        "ba": 0.8,
+        "be": 0.045,
+        "bua": 0.23,
+        "ce": 1.1,
+        "chm": 0.19,
+        "cu": 0.001,
+        "cv": 1.3,
+        "dar": 0.27,
+        "de": 0.79,
+        "en": 3.8,
+        "fi": 0.01,
+        "hy": 0.84,
+        "inh": 0.25,
+        "izh": 0,
+        "ka": 0.06,
+        "kaa": 0.0003,
+        "kbd": 0.34,
+        "kk": 0.2,
+        "koi": 0.031,
+        "krc": 0.2,
+        "krl": 0.01,
+        "kum": 0.3,
+        "kv": 0.081,
+        "lbe": 0.065,
+        "lez": 0.21,
+        "mdf": 0.21,
+        "mn": 0.0033,
+        "mrj": 0.011,
+        "myv": 0.31,
+        "os": 0.26,
+        "pnt_Cyrl": 0.04,
+        "ru": 99,
+        "sah": 0.28,
+        "sr": 0.0042,
+        "tg": 0.16,
+        "tt": 2.4,
+        "tyv": 0.19,
+        "udm": 0.19,
+        "uk": 0.46,
+        "uz": 0.17,
+        "vep": 0.0016,
+        "vot": 0,
+        "xal": 0.08,
+        "xdq": 0.015
+      }
+    },
+    "RW": {
+      "population": 13623300,
+      "languages": {
+        "en": 15,
+        "fr": 5.8,
+        "rw": 77
+      }
+    },
+    "SA": {
+      "population": 36544400,
+      "languages": {
+        "ar": 100,
+        "ars": 3
+      }
+    },
+    "SB": {
+      "population": 726799,
+      "languages": {
+        "en": 100,
+        "pis": 82,
+        "rug": 1.4
+      }
+    },
+    "SC": {
+      "population": 98187,
+      "languages": {
+        "crs": 98,
+        "en": 38,
+        "fr": 53
+      }
+    },
+    "SD": {
+      "population": 50467300,
+      "languages": {
+        "apd": 61,
+        "ar": 61,
+        "bej": 5.4,
+        "en": 61,
+        "fia": 0.83,
+        "fvr": 2.7,
+        "ha_Arab": 1.8,
+        "mls": 0.99,
+        "zag": 0.51
+      }
+    },
+    "SE": {
+      "population": 10589800,
+      "languages": {
+        "en": 86,
+        "fi": 2.2,
+        "fit": 0.55,
+        "ia": 0,
+        "rmu": 0.09,
+        "se": 0.33,
+        "sma": 0.0028,
+        "smj": 0.014,
+        "sv": 95,
+        "yi": 0.028
+      }
+    },
+    "SG": {
+      "population": 6028460,
+      "languages": {
+        "bn": 1.3,
+        "cdo": 0.9,
+        "cpx": 0.4,
+        "en": 80,
+        "fil": 2.6,
+        "hak": 4.3,
+        "id": 2,
+        "ja": 0.6,
+        "jv": 1.5,
+        "mad": 0.4,
+        "ml": 0.4,
+        "mnp": 0.3,
+        "ms": 19,
+        "nan": 5.8,
+        "pa": 0.4,
+        "ta": 4.9,
+        "th": 0.7,
+        "yue": 2.1,
+        "zh": 62
+      }
+    },
+    "SH": {
+      "population": 7943,
+      "languages": {
+        "en": 68
+      }
+    },
+    "SI": {
+      "population": 2097890,
+      "languages": {
+        "de": 42,
+        "en": 59,
+        "hr": 61,
+        "hu": 0.44,
+        "it": 0.19,
+        "sl": 87,
+        "vec": 1.4
+      }
+    },
+    "SJ": {
+      "population": 2926,
+      "languages": {
+        "nb": 51,
+        "ru": 41
+      }
+    },
+    "SK": {
+      "population": 5563650,
+      "languages": {
+        "cs": 47,
+        "de": 22,
+        "en": 26,
+        "hu": 11,
+        "pl": 0.93,
+        "sk": 90,
+        "uk": 1.9
+      }
+    },
+    "SL": {
+      "population": 9121050,
+      "languages": {
+        "en": 35,
+        "ff": 0,
+        "ff_Adlm": 0,
+        "kri": 95,
+        "men": 27,
+        "sus": 3,
+        "tem": 26
+      }
+    },
+    "SM": {
+      "population": 35095,
+      "languages": {
+        "eo": 0.85,
+        "it": 89
+      }
+    },
+    "SN": {
+      "population": 18847500,
+      "languages": {
+        "bjt": 0.61,
+        "bsc": 0.097,
+        "dyo": 2.6,
+        "ff": 21,
+        "ff_Adlm": 0,
+        "fr": 26,
+        "knf": 0.21,
+        "mey_Latn": 0.038,
+        "mfv": 0.77,
+        "sav": 1.5,
+        "snf": 0.24,
+        "srr": 11,
+        "tnr": 0.018,
+        "wo": 70
+      }
+    },
+    "SO": {
+      "population": 13017300,
+      "languages": {
+        "ar": 34,
+        "om": 0.42,
+        "so": 78,
+        "sw": 2
+      }
+    },
+    "SR": {
+      "population": 646758,
+      "languages": {
+        "hnj": 0.36,
+        "nl": 90,
+        "srn": 68,
+        "zh_Hant": 1.1
+      }
+    },
+    "SS": {
+      "population": 12703700,
+      "languages": {
+        "ar": 27,
+        "en": 27,
+        "nus": 5.6
+      }
+    },
+    "ST": {
+      "population": 223561,
+      "languages": {
+        "fr": 20,
+        "pt": 85
+      }
+    },
+    "SV": {
+      "population": 6628700,
+      "languages": {
+        "ccr": 0.056,
+        "es": 89,
+        "len": 0.02,
+        "ppl": 0.041
+      }
+    },
+    "SX": {
+      "population": 46215,
+      "languages": {
+        "en": 68,
+        "es": 11,
+        "nl": 3.4,
+        "vic": 6.7
+      }
+    },
+    "SY": {
+      "population": 23865400,
+      "languages": {
+        "apc": 85,
+        "ar": 80,
+        "fr": 5.9,
+        "hy": 1.8,
+        "ku": 8,
+        "syr": 0.084
+      }
+    },
+    "SZ": {
+      "population": 1138090,
+      "languages": {
+        "en": 80,
+        "ss": 58,
+        "ts": 1.7,
+        "zu": 6.8
+      }
+    },
+    "TA": {
+      "population": 275,
+      "languages": {
+        "en": 99
+      }
+    },
+    "TC": {
+      "population": 60439,
+      "languages": {
+        "en": 98
+      }
+    },
+    "TD": {
+      "population": 19093600,
+      "languages": {
+        "ar": 17,
+        "fr": 13
+      }
+    },
+    "TF": {
+      "population": 140,
+      "languages": {
+        "fr": 100
+      }
+    },
+    "TG": {
+      "population": 8917990,
+      "languages": {
+        "blo": 0.15,
+        "ee": 17,
+        "fr": 41,
+        "ife": 1.3
+      }
+    },
+    "TH": {
+      "population": 69921000,
+      "languages": {
+        "en": 27,
+        "hnj": 0.098,
+        "kdt": 0.48,
+        "kxm": 1.7,
+        "lcp": 0.01,
+        "lwl": 0.01,
+        "mfa": 5,
+        "mnw": 0.17,
+        "mww": 0.047,
+        "nod": 9.6,
+        "pi_Thai": 0,
+        "shn": 0.096,
+        "sou": 8,
+        "th": 80,
+        "tts": 24,
+        "zh_Hant": 1.8
+      }
+    },
+    "TJ": {
+      "population": 10394100,
+      "languages": {
+        "ar": 0.0096,
+        "fa": 0.78,
+        "ru": 12,
+        "tg": 100
+      }
+    },
+    "TK": {
+      "population": 1647,
+      "languages": {
+        "en": 38,
+        "sm": 20,
+        "tkl": 69
+      }
+    },
+    "TL": {
+      "population": 1506910,
+      "languages": {
+        "pt": 59,
+        "tet": 59
+      }
+    },
+    "TM": {
+      "population": 5744150,
+      "languages": {
+        "kaa": 0.1,
+        "ku_Cyrl": 0.4,
+        "ru": 12,
+        "tk": 70,
+        "uz": 9
+      }
+    },
+    "TN": {
+      "population": 12048800,
+      "languages": {
+        "aeb": 90,
+        "ar": 90,
+        "fr": 53
+      }
+    },
+    "TO": {
+      "population": 104889,
+      "languages": {
+        "en": 28,
+        "to": 95
+      }
+    },
+    "TR": {
+      "population": 84119500,
+      "languages": {
+        "ab": 0.0048,
+        "abq_Latn": 0.015,
+        "ady": 0.39,
+        "apc": 5.2,
+        "ar": 0.56,
+        "az": 0.74,
+        "az_Arab": 0.65,
+        "bg": 0.42,
+        "bgx": 0.46,
+        "el": 0.0048,
+        "en": 17,
+        "hy": 0.056,
+        "ka": 0.056,
+        "kaa": 0.1,
+        "kbd": 0.77,
+        "kiu": 0.19,
+        "kk": 0.0007,
+        "ku": 5.5,
+        "ky_Latn": 0.0014,
+        "lzz": 0.025,
+        "pnt_Latn": 0.0061,
+        "sq": 0.021,
+        "sr_Latn": 0.028,
+        "tr": 93,
+        "tru": 0.0036,
+        "uz": 0.0024,
+        "zza": 1.4
+      }
+    },
+    "TT": {
+      "population": 1408970,
+      "languages": {
+        "en": 88,
+        "es": 0.29
+      }
+    },
+    "TV": {
+      "population": 11733,
+      "languages": {
+        "en": 9.1,
+        "tvl": 85
+      }
+    },
+    "TW": {
+      "population": 23595300,
+      "languages": {
+        "hak_Hant": 11,
+        "nan_Hant": 57,
+        "trv": 0.02,
+        "zh_Hant": 95
+      }
+    },
+    "TZ": {
+      "population": 67462100,
+      "languages": {
+        "asa": 1.2,
+        "bez": 1.7,
+        "en": 69,
+        "jmc": 0.74,
+        "kde": 2.5,
+        "ksb": 1.7,
+        "lag": 0.87,
+        "mas": 1.5,
+        "mgy": 1.4,
+        "nym": 3.3,
+        "rof": 0.74,
+        "rwk": 0.22,
+        "sbp": 0.2,
+        "suk": 8.7,
+        "sw": 90,
+        "vun": 0.74
+      }
+    },
+    "UA": {
+      "population": 35661800,
+      "languages": {
+        "be": 0.83,
+        "bg": 0.49,
+        "crh": 0.56,
+        "el": 0.02,
+        "hu": 0.37,
+        "pl": 2.4,
+        "ro": 0.52,
+        "ru": 46,
+        "rue": 1.2,
+        "tr": 0.42,
+        "uk": 65,
+        "yi": 1.3
+      }
+    },
+    "UG": {
+      "population": 49283000,
+      "languages": {
+        "ach": 3.7,
+        "cgg": 5.4,
+        "en": 3.9,
+        "hi": 0.0045,
+        "laj": 3.8,
+        "lg": 13,
+        "myx": 2.9,
+        "nyn": 6.3,
+        "rw": 2.1,
+        "sw": 75,
+        "teo": 3.9,
+        "ttj": 1.9,
+        "xog": 5.3
+      }
+    },
+    "UM": {
+      "population": 316,
+      "languages": {
+        "en": 100
+      }
+    },
+    "US": {
+      "population": 341963000,
+      "languages": {
+        "cad": 0,
+        "cho": 0.0033,
+        "chr": 0.0077,
+        "cic": 0,
+        "dak": 0.0059,
+        "de": 0.47,
+        "en": 96,
+        "es": 9.6,
+        "esu": 0.0063,
+        "fil": 0.42,
+        "fr": 0.56,
+        "frc": 0.0084,
+        "haw": 0.0089,
+        "hnj": 0.035,
+        "ik": 0.0023,
+        "io": 0,
+        "it": 0.34,
+        "jbo": 0,
+        "ko": 0.3,
+        "lkt": 0.0024,
+        "mus": 0.0012,
+        "mww": 0.068,
+        "nv": 0.05,
+        "oka": 0.0001,
+        "osa": 0,
+        "pdc": 0.039,
+        "ru": 0.24,
+        "vi": 0.34,
+        "yi": 0.049,
+        "zh_Hant": 0.69
+      }
+    },
+    "UY": {
+      "population": 3425330,
+      "languages": {
+        "es": 88
+      }
+    },
+    "UZ": {
+      "population": 36520600,
+      "languages": {
+        "kaa": 2.1,
+        "ru": 14,
+        "tr": 0.62,
+        "uz": 85,
+        "uz_Cyrl": 15
+      }
+    },
+    "VA": {
+      "population": 1000,
+      "languages": {
+        "it": 82,
+        "la": 82
+      }
+    },
+    "VC": {
+      "population": 100647,
+      "languages": {
+        "en": 96
+      }
+    },
+    "VE": {
+      "population": 31250300,
+      "languages": {
+        "es": 82,
+        "yrl": 0.0064
+      }
+    },
+    "VG": {
+      "population": 40102,
+      "languages": {
+        "en": 98
+      }
+    },
+    "VI": {
+      "population": 104377,
+      "languages": {
+        "en": 75
+      }
+    },
+    "VN": {
+      "population": 105759000,
+      "languages": {
+        "blt": 0.69,
+        "cjm": 0.089,
+        "hnj": 0.17,
+        "mww": 1.4,
+        "vi": 86,
+        "zh_Hant": 1.1
+      }
+    },
+    "VU": {
+      "population": 318007,
+      "languages": {
+        "bi": 90,
+        "en": 83,
+        "fr": 31
+      }
+    },
+    "WF": {
+      "population": 15964,
+      "languages": {
+        "fr": 83,
+        "fud": 30,
+        "wls": 59
+      }
+    },
+    "WS": {
+      "population": 208853,
+      "languages": {
+        "en": 2.1,
+        "sm": 100
+      }
+    },
+    "XK": {
+      "population": 1977090,
+      "languages": {
+        "aln": 74,
+        "sq": 92,
+        "sr": 5,
+        "sr_Latn": 5
+      }
+    },
+    "YE": {
+      "population": 32140400,
+      "languages": {
+        "ar": 74,
+        "en": 9
+      }
+    },
+    "YT": {
+      "population": 194000,
+      "languages": {
+        "buc": 23,
+        "fr": 63,
+        "sw": 1.4,
+        "swb": 88
+      }
+    },
+    "ZA": {
+      "population": 60442600,
+      "languages": {
+        "af": 13,
+        "en": 31,
+        "hi": 2,
+        "nr": 1.6,
+        "nso": 9.4,
+        "ss": 2.7,
+        "st": 7.9,
+        "sw": 0.0017,
+        "tn": 8.2,
+        "ts": 4.4,
+        "ve": 2.3,
+        "xh": 18,
+        "zu": 24
+      }
+    },
+    "ZM": {
+      "population": 20799100,
+      "languages": {
+        "bem": 34,
+        "en": 16,
+        "kqn": 1.9,
+        "leb": 2.8,
+        "loz": 5.5,
+        "lue": 1.5,
+        "lun": 1.9,
+        "nse": 3,
+        "ny": 19,
+        "toi": 11,
+        "tum": 2.6
+      }
+    },
+    "ZW": {
+      "population": 17150400,
+      "languages": {
+        "en": 42,
+        "kck": 5.3,
+        "mxc": 6.5,
+        "nd": 12,
+        "ndc": 6.1,
+        "ny": 1.9,
+        "sn": 81,
+        "tn": 0.22,
+        "ve": 0.64
+      }
+    },
+    "ZZ": {
+      "population": 0,
+      "languages": {}
+    }
+  }
+}

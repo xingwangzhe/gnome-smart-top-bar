@@ -1,0 +1,63 @@
+# Smart Top Bar bn translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: bn\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "স্মার্ট শীর্ষ বার"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "দেখাতে উপরের প্রান্তে দুবার বাম-ডানে নাড়ুন"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "সর্বাধিক বা পাশাপাশি সাজানো উইন্ডোতে লুকান। প্রকৃত পূর্ণপর্দায় কখনো দেখাবেন না।"
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "পয়েন্টার মূল পর্দার উপরের প্রান্তের ৩ পিক্সেলের মধ্যে রেখে দুবার বাম-ডানে নাড়ুন।"
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "প্রতি নড়াচড়ার দূরত্ব"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "লজিক্যাল পিক্সেল; বড় মান অনিচ্ছাকৃতভাবে দেখানো কমায়।"
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "অঙ্গভঙ্গির সময়সীমা"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "চারটি পর্যায়ক্রমিক নড়াচড়া শেষ করার সময়, মিলিসেকেন্ডে।"
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "লুকানোর বিলম্ব"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "সরে যাওয়ার পর মিলিসেকেন্ড; মেনু খোলা থাকলে বা কীবোর্ড ব্যবহারে বার দৃশ্যমান থাকে।"
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "শর্টকাট: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "সাময়িকভাবে দেখান বা লুকান। প্রকৃত পূর্ণপর্দায় বন্ধ; ওভারভিউয়ের জন্য Super চাপুন।"

@@ -1,0 +1,63 @@
+# Smart Top Bar ja translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "スマートトップバー"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "画面上端で左右に2往復して表示"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "最大化・タイル配置時に隠し、真の全画面では表示しません。"
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "主画面の上端3ピクセル以内にポインターを置き、左右に2往復してください。"
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "1回の移動距離"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "論理ピクセル。大きくすると誤表示を減らせます。"
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "ジェスチャーの制限時間"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "交互の4回の移動を完了するまでの時間（ミリ秒）。"
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "非表示までの待ち時間"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "ポインターが離れてからの時間（ミリ秒）。メニュー操作中やキーボード操作中は表示を維持します。"
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "ショートカット：Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "一時的に表示・非表示を切り替えます。真の全画面では無効です。Superでアクティビティを開けます。"

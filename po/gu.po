@@ -1,0 +1,63 @@
+# Smart Top Bar gu translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: gu\n"
+"Language: gu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "સ્માર્ટ ઉપરની પટ્ટી"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "બતાવવા માટે ઉપરની કિનારે બે વાર ડાબે-જમણે હલાવો"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "મહત્તમ અથવા ટાઇલ કરેલી વિન્ડોમાં છુપાવો. સાચા પૂર્ણ સ્ક્રીનમાં ક્યારેય ન બતાવો."
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "સૂચકને મુખ્ય સ્ક્રીનની ઉપરની કિનારથી 3 પિક્સેલમાં રાખીને બે વાર ડાબે-જમણે હલાવો."
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "દરેક હલનચલનનું અંતર"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "તાર્કિક પિક્સેલ; મોટી કિંમત આકસ્મિક દેખાવ ઘટાડે છે."
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "હાવભાવની સમયમર્યાદા"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "ચારેય વારાફરતી હલનચલન પૂર્ણ કરવા માટે મિલિસેકંડ."
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "છુપાવવામાં વિલંબ"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "દૂર ગયા પછી મિલિસેકંડ; ખુલ્લાં મેનૂ અને કીબોર્ડ વપરાશમાં પટ્ટી દેખાતી રહે છે."
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "શૉર્ટકટ: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "થોડા સમય માટે બતાવો અથવા છુપાવો. સાચા પૂર્ણ સ્ક્રીનમાં બંધ; ઝાંખી માટે Super દબાવો."

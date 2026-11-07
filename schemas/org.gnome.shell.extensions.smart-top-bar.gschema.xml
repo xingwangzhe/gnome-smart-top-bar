@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.smart-top-bar" path="/org/gnome/shell/extensions/smart-top-bar/">
+    <key name="gesture-distance" type="i"><default>36</default><range min="20" max="120"/><summary>每段手势的最短距离（逻辑像素）</summary></key>
+    <key name="gesture-timeout" type="i"><default>1600</default><range min="800" max="4000"/><summary>完成两次左右晃动的最长时间（毫秒）</summary></key>
+    <key name="hide-delay" type="i"><default>650</default><range min="200" max="2500"/><summary>鼠标离开后隐藏延迟（毫秒）</summary></key>
+    <key name="toggle-bar" type="as"><default>['&lt;Super&gt;&lt;Control&gt;b']</default><summary>临时呼出或收起顶栏（真全屏中无效）</summary></key>
+  </schema>
+</schemalist>

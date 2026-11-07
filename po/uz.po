@@ -1,0 +1,63 @@
+# Smart Top Bar uz translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: uz\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "Aqlli yuqori panel"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "Ko‘rsatish uchun yuqori chetda ikki marta chap-o‘ngga silkiting"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "Kattalashtirilgan yoki yonma-yon oynalarda yashirish. Haqiqiy to‘liq ekranda hech qachon ko‘rsatmaslik."
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "Ko‘rsatkichni asosiy ekranning yuqori chetidan 3 piksel ichida tutib, ikki marta chap-o‘ngga harakatlantiring."
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "Har bir harakat masofasi"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "Mantiqiy piksel; kattaroq qiymat tasodifiy ko‘rinishni kamaytiradi."
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "Imo-ishora vaqt chegarasi"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "To‘rtta navbatma-navbat harakatni tugatish uchun millisekund."
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "Yashirish kechikishi"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "Chetga chiqqandan keyingi millisekund; ochiq menyular va klaviatura boshqaruvi panelni ko‘rinadigan saqlaydi."
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "Yorliq: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "Vaqtincha ko‘rsatish yoki yashirish. Haqiqiy to‘liq ekranda o‘chirilgan; umumiy ko‘rinish uchun Super ni bosing."

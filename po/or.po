@@ -1,0 +1,63 @@
+# Smart Top Bar or translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: or\n"
+"Language: or\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "ସ୍ମାର୍ଟ ଉପର ବାର୍"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "ଦେଖାଇବାକୁ ଉପର ଧାରରେ ଦୁଇଥର ବାମ-ଡାହାଣ ହଲାନ୍ତୁ"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "ବଡ଼ କିମ୍ବା ପାଖାପାଖି ସଜାଯାଇଥିବା ୱିଣ୍ଡୋରେ ଲୁଚାନ୍ତୁ। ପ୍ରକୃତ ପୂର୍ଣ୍ଣ ପରଦାରେ କେବେ ଦେଖାନ୍ତୁ ନାହିଁ।"
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "ସୂଚକକୁ ମୁଖ୍ୟ ପରଦାର ଉପର ଧାରଠାରୁ 3 ପିକ୍ସେଲ ଭିତରେ ରଖି ଦୁଇଥର ବାମ-ଡାହାଣ ହଲାନ୍ତୁ।"
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "ପ୍ରତି ଗତିର ଦୂରତା"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "ଲଜିକାଲ ପିକ୍ସେଲ; ବଡ଼ ମୂଲ୍ୟ ଅଜାଣତରେ ଦେଖାଯିବା କମାଏ।"
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "ଅଙ୍ଗଭଙ୍ଗୀର ସମୟ ସୀମା"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "ଚାରୋଟି ପାଳିକ୍ରମିକ ଗତି ସମ୍ପୂର୍ଣ୍ଣ କରିବା ପାଇଁ ମିଲିସେକେଣ୍ଡ।"
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "ଲୁଚାଇବା ବିଳମ୍ବ"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "ଦୂର ହେବା ପରେ ମିଲିସେକେଣ୍ଡ; ଖୋଲା ମେନୁ ଓ କୀବୋର୍ଡ ବ୍ୟବହାର ସମୟରେ ବାର୍ ଦୃଶ୍ୟମାନ ରହେ।"
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "ସର୍ଟକଟ୍: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "ସାମୟିକ ଭାବେ ଦେଖାନ୍ତୁ କିମ୍ବା ଲୁଚାନ୍ତୁ। ପ୍ରକୃତ ପୂର୍ଣ୍ଣ ପରଦାରେ ବନ୍ଦ; ସାରାଂଶ ପାଇଁ Super ଦବାନ୍ତୁ।"

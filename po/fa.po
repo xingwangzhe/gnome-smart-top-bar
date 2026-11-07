@@ -1,0 +1,63 @@
+# Smart Top Bar fa translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: fa\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "نوار بالای هوشمند"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "برای نمایش در لبهٔ بالا دو بار به چپ و راست حرکت دهید"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "هنگام بیشینه یا کاشی‌چین شدن پنجره‌ها پنهان شود. در تمام‌صفحهٔ واقعی هرگز نمایش داده نشود."
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "نشانگر را در فاصلهٔ ۳ پیکسلی لبهٔ بالای نمایشگر اصلی نگه دارید و دو بار به چپ و راست ببرید."
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "فاصلهٔ هر حرکت"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "پیکسل منطقی؛ مقدار بزرگ‌تر نمایش ناخواسته را کاهش می‌دهد."
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "محدودیت زمانی حرکت"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "میلی‌ثانیه برای تکمیل هر چهار حرکت متناوب."
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "تأخیر پنهان‌سازی"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "میلی‌ثانیه پس از دور شدن؛ منوهای باز و پیمایش صفحه‌کلید نوار را نمایان نگه می‌دارند."
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "میانبر: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "نمایش یا پنهان‌سازی موقت. در تمام‌صفحهٔ واقعی غیرفعال است؛ برای نمای کلی Super را بزنید."

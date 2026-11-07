@@ -1,0 +1,63 @@
+# Smart Top Bar ur translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: ur\n"
+"Language: ur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "ذہین بالائی پٹی"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "دکھانے کے لیے اوپری کنارے پر دو بار دائیں بائیں ہلائیں"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "بڑی یا ساتھ ساتھ رکھی کھڑکیوں میں چھپائیں۔ حقیقی پوری اسکرین میں کبھی نہ دکھائیں۔"
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "اشارے کو مرکزی اسکرین کے اوپری کنارے کے 3 پکسل کے اندر رکھ کر دو بار دائیں بائیں ہلائیں۔"
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "ہر حرکت کا فاصلہ"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "منطقی پکسل؛ بڑی قدر غیر ارادی طور پر ظاہر ہونے کو کم کرتی ہے۔"
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "اشارے کی وقت کی حد"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "چاروں باری باری حرکتیں مکمل کرنے کا وقت ملی سیکنڈ میں۔"
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "چھپانے میں تاخیر"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "ہٹنے کے بعد ملی سیکنڈ؛ کھلے مینو اور کی بورڈ کی رہنمائی پٹی کو ظاہر رکھتے ہیں۔"
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "شارٹ کٹ: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "عارضی طور پر دکھائیں یا چھپائیں۔ حقیقی پوری اسکرین میں غیر فعال؛ جائزے کے لیے Super دبائیں۔"

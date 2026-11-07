@@ -1,0 +1,63 @@
+# Smart Top Bar kn translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: kn\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "ಸ್ಮಾರ್ಟ್ ಮೇಲಿನ ಪಟ್ಟಿ"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "ತೋರಿಸಲು ಮೇಲಿನ ಅಂಚಿನಲ್ಲಿ ಎರಡು ಬಾರಿ ಎಡ-ಬಲಕ್ಕೆ ಸರಿಸಿ"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "ಗರಿಷ್ಠಗೊಳಿಸಿದ ಅಥವಾ ಪಕ್ಕಪಕ್ಕದ ಕಿಟಕಿಗಳಲ್ಲಿ ಮರೆಮಾಡಿ. ನಿಜವಾದ ಪೂರ್ಣ ಪರದೆಯಲ್ಲಿ ಎಂದಿಗೂ ತೋರಿಸಬೇಡಿ."
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "ಸೂಚಕವನ್ನು ಮುಖ್ಯ ಪರದೆಯ ಮೇಲಿನ ಅಂಚಿನಿಂದ 3 ಪಿಕ್ಸೆಲ್ ಒಳಗೆ ಇರಿಸಿ ಎರಡು ಬಾರಿ ಎಡ-ಬಲಕ್ಕೆ ಸರಿಸಿ."
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "ಪ್ರತಿ ಚಲನೆಯ ದೂರ"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "ತಾರ್ಕಿಕ ಪಿಕ್ಸೆಲ್‌ಗಳು; ದೊಡ್ಡ ಮೌಲ್ಯವು ಆಕಸ್ಮಿಕವಾಗಿ ತೋರಿಸುವುದನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ."
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "ಸನ್ನೆಯ ಸಮಯ ಮಿತಿ"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "ನಾಲ್ಕು ಪರ್ಯಾಯ ಚಲನೆಗಳನ್ನು ಮುಗಿಸಲು ಮಿಲಿಸೆಕೆಂಡುಗಳು."
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "ಮರೆಮಾಡುವ ವಿಳಂಬ"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "ದೂರವಾದ ನಂತರ ಮಿಲಿಸೆಕೆಂಡುಗಳು; ತೆರೆದ ಮೆನುಗಳು ಮತ್ತು ಕೀಬೋರ್ಡ್ ಬಳಕೆ ಪಟ್ಟಿಯನ್ನು ಗೋಚರವಾಗಿರಿಸುತ್ತವೆ."
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "ಶಾರ್ಟ್‌ಕಟ್: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "ತಾತ್ಕಾಲಿಕವಾಗಿ ತೋರಿಸಿ ಅಥವಾ ಮರೆಮಾಡಿ. ನಿಜವಾದ ಪೂರ್ಣ ಪರದೆಯಲ್ಲಿ ನಿಷ್ಕ್ರಿಯ; ಅವಲೋಕನಕ್ಕಾಗಿ Super ಒತ್ತಿ."

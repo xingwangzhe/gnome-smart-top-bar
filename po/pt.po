@@ -1,0 +1,63 @@
+# Smart Top Bar pt translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: pt\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "Barra superior inteligente"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "Dois movimentos de ida e volta na borda superior para mostrar"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "Oculta com janelas maximizadas ou lado a lado. Nunca aparece em tela cheia real."
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "Mantenha o ponteiro a até 3 pixels da borda superior da tela principal e mova-o de um lado para o outro duas vezes."
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "Distância por movimento"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "Pixels lógicos; valores maiores reduzem exibições acidentais."
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "Limite de tempo do gesto"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "Milissegundos para completar os quatro movimentos alternados."
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "Atraso para ocultar"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "Milissegundos após sair; menus abertos e navegação pelo teclado mantêm a barra visível."
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "Atalho: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "Mostra ou oculta temporariamente. Desativado em tela cheia real; Super abre a visão geral."

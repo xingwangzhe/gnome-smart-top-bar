@@ -1,0 +1,9 @@
+node_modules/
+dist/
+outputs/
+locale/
+schemas/gschemas.compiled
+*.log
+.env
+.env.*
+!*.example

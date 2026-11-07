@@ -1,0 +1,17 @@
+{
+  "name": "gnome-smart-top-bar",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "test": "bun test",
+    "test:integration": "bash tests/nested-smoke.sh",
+    "i18n": "bun run scripts/i18n.ts",
+    "package": "bun run scripts/package.ts",
+    "install:local": "bun run install.ts"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}

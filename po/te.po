@@ -1,0 +1,63 @@
+# Smart Top Bar te translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: te\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "స్మార్ట్ పై పట్టీ"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "చూపడానికి పై అంచు వద్ద రెండుసార్లు ఎడమ-కుడి కదపండి"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "గరిష్ఠీకరించిన లేదా పక్కపక్కన అమర్చిన విండోలలో దాచండి. నిజమైన పూర్తి తెరలో ఎప్పుడూ చూపవద్దు."
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "సూచికను ప్రధాన తెర పై అంచు నుంచి 3 పిక్సెళ్లలో ఉంచి రెండుసార్లు ఎడమ-కుడి కదపండి."
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "ప్రతి కదలిక దూరం"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "తార్కిక పిక్సెళ్లు; పెద్ద విలువలు అనుకోకుండా కనిపించడాన్ని తగ్గిస్తాయి."
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "సంజ్ఞ సమయ పరిమితి"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "నాలుగు ప్రత్యామ్నాయ కదలికలను పూర్తి చేయడానికి మిల్లీసెకన్లు."
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "దాచే ఆలస్యం"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "దూరమైన తర్వాత మిల్లీసెకన్లు; తెరిచిన మెనూలు, కీబోర్డ్ వినియోగంలో పట్టీ కనిపిస్తుంది."
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "సత్వరమార్గం: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "తాత్కాలికంగా చూపండి లేదా దాచండి. నిజమైన పూర్తి తెరలో పనిచేయదు; సమీక్ష కోసం Super నొక్కండి."

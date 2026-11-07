@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 256 256">
+  <title>Smart Top Bar — hidden panel</title>
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="#202b45"/>
+  <rect x="30" y="99" width="196" height="58" rx="10" fill="none" stroke="#a6d9ff" stroke-width="8" stroke-linecap="round" stroke-dasharray="16 13"/>
+</svg>

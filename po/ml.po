@@ -1,0 +1,63 @@
+# Smart Top Bar ml translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: ml\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "സ്മാർട്ട് മുകളിലെ ബാർ"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "കാണിക്കാൻ മുകളിലെ അരികിൽ രണ്ടുതവണ ഇടത്തോട്ടും വലത്തോട്ടും നീക്കുക"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "വലുതാക്കിയതോ ടൈൽ ചെയ്തതോ ആയ ജാലകങ്ങളിൽ മറയ്ക്കുക. യഥാർത്ഥ പൂർണ്ണസ്ക്രീനിൽ ഒരിക്കലും കാണിക്കരുത്."
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "സൂചിക പ്രധാന സ്ക്രീനിന്റെ മുകളിലെ അരികിൽ നിന്ന് 3 പിക്സലിനുള്ളിൽ വച്ച് രണ്ടുതവണ ഇടത്തോട്ടും വലത്തോട്ടും നീക്കുക."
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "ഓരോ നീക്കത്തിന്റെയും ദൂരം"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "ലോജിക്കൽ പിക്സലുകൾ; വലിയ മൂല്യം അബദ്ധത്തിൽ കാണിക്കുന്നത് കുറയ്ക്കുന്നു."
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "ആംഗ്യ സമയപരിധി"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "നാല് മാറിമാറിയുള്ള നീക്കങ്ങളും പൂർത്തിയാക്കാനുള്ള മില്ലിസെക്കൻഡുകൾ."
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "മറയ്ക്കാനുള്ള താമസം"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "മാറിയ ശേഷമുള്ള മില്ലിസെക്കൻഡുകൾ; തുറന്ന മെനുകളും കീബോർഡ് ഉപയോഗവും ബാർ ദൃശ്യമായി നിലനിർത്തും."
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "കുറുക്കുവഴി: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "താൽക്കാലികമായി കാണിക്കുക അല്ലെങ്കിൽ മറയ്ക്കുക. യഥാർത്ഥ പൂർണ്ണസ്ക്രീനിൽ പ്രവർത്തിക്കില്ല; അവലോകനത്തിനായി Super അമർത്തുക."

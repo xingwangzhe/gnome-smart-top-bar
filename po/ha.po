@@ -1,0 +1,63 @@
+# Smart Top Bar ha translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: ha\n"
+"Language: ha\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "Sandar sama mai hankali"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "Motsa hagu da dama sau biyu a gefen sama don nunawa"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "Ɓoye idan an faɗaɗa tagogi ko an jera su gefe da gefe. Kada a nuna a cikakken allo na gaske."
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "Riƙe mai nuni cikin piksel 3 daga gefen sama na babban allo, sannan motsa hagu da dama sau biyu."
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "Nisan kowane motsi"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "Piksel na ma’ana; ƙima mai girma tana rage bayyana ba da gangan ba."
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "Iyakacin lokacin motsi"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "Milisekan don kammala motsi huɗu masu sauyawa."
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "Jinkirin ɓoyewa"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "Milisekan bayan fita; buɗaɗɗun menu da amfani da madannai suna barin sandar a bayyane."
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "Gajeriyar hanya: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "Nuna ko ɓoye na ɗan lokaci. Ba ya aiki a cikakken allo na gaske; danna Super don dubawa."

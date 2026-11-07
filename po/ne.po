@@ -1,0 +1,63 @@
+# Smart Top Bar ne translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: ne\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "स्मार्ट माथिल्लो पट्टी"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "देखाउन माथिल्लो किनारमा दुई पटक बायाँ-दायाँ हल्लाउनुहोस्"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "ठूलो पारिएका वा टाइल गरिएका सञ्झ्यालमा लुकाउनुहोस्। वास्तविक पूर्ण पर्दामा कहिल्यै नदेखाउनुहोस्।"
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "सूचकलाई मुख्य पर्दाको माथिल्लो किनारबाट 3 पिक्सेलभित्र राखेर दुई पटक बायाँ-दायाँ सार्नुहोस्।"
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "प्रत्येक चालको दूरी"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "तार्किक पिक्सेल; ठूलो मानले अनायास देखिने घटना घटाउँछ।"
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "इशाराको समयसीमा"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "चारै वैकल्पिक चाल पूरा गर्न मिलिसेकेन्ड।"
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "लुकाउने ढिलाइ"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "हटेपछि मिलिसेकेन्ड; खुला मेनु र किबोर्ड प्रयोग गर्दा पट्टी देखिइरहन्छ।"
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "सर्टकट: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "अस्थायी रूपमा देखाउनुहोस् वा लुकाउनुहोस्। वास्तविक पूर्ण पर्दामा निष्क्रिय; अवलोकनका लागि Super थिच्नुहोस्।"

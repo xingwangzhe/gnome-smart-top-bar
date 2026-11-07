@@ -1,0 +1,63 @@
+# Smart Top Bar ru translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: ru\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "Умная верхняя панель"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "Дважды проведите туда и обратно у верхнего края"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "Скрывать при развёрнутых или мозаичных окнах. Не показывать в настоящем полноэкранном режиме."
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "Держите указатель в пределах 3 пикселей от верхнего края основного экрана и дважды проведите влево и вправо."
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "Длина движения"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "Логические пиксели; большие значения уменьшают случайные появления."
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "Время на жест"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "Миллисекунды для выполнения всех четырёх чередующихся движений."
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "Задержка скрытия"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "Миллисекунды после ухода указателя; открытые меню и управление с клавиатуры сохраняют панель видимой."
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "Сочетание: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "Временно показать или скрыть. В настоящем полноэкранном режиме отключено; Super открывает обзор."

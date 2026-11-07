@@ -1,0 +1,63 @@
+# Smart Top Bar mr translation.
+# Copyright (C) 2026 xingwangzhe and contributors
+# Distributed under the same license as Smart Top Bar.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Top Bar\n"
+"Report-Msgid-Bugs-To: https://github.com/xingwangzhe/gnome-smart-top-bar/issues\n"
+"POT-Creation-Date: 2026-11-07 00:00+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Smart Top Bar contributors\n"
+"Language-Team: mr\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js
+msgid "Smart Top Bar"
+msgstr "स्मार्ट वरची पट्टी"
+
+#: prefs.js
+msgid "Shake twice at the top edge to reveal"
+msgstr "दाखवण्यासाठी वरच्या कडेवर दोनदा डावीकडे-उजवीकडे हलवा"
+
+#: prefs.js
+msgid "Hide when maximized or tiled. Never reveal in true fullscreen."
+msgstr "मोठ्या किंवा टाइल केलेल्या खिडक्यांमध्ये लपवा. खऱ्या पूर्ण स्क्रीनमध्ये कधीही दाखवू नका."
+
+#: prefs.js
+msgid "Keep the pointer within 3 pixels of the primary screen’s top edge and move left and right twice."
+msgstr "दर्शक मुख्य स्क्रीनच्या वरच्या कडेपासून 3 पिक्सेलमध्ये ठेवून दोनदा डावीकडे-उजवीकडे हलवा."
+
+#: prefs.js
+msgid "Stroke distance"
+msgstr "प्रत्येक हालचालीचे अंतर"
+
+#: prefs.js
+msgid "Logical pixels; larger values reduce accidental reveals."
+msgstr "तार्किक पिक्सेल; मोठी किंमत चुकून दिसणे कमी करते."
+
+#: prefs.js
+msgid "Gesture time limit"
+msgstr "हावभावाची वेळमर्यादा"
+
+#: prefs.js
+msgid "Milliseconds to complete all four alternating strokes."
+msgstr "चारही आलटूनपालटून हालचाली पूर्ण करण्यासाठी मिलिसेकंद."
+
+#: prefs.js
+msgid "Hide delay"
+msgstr "लपवण्याचा विलंब"
+
+#: prefs.js
+msgid "Milliseconds after leaving; open menus and keyboard navigation keep the bar visible."
+msgstr "दूर गेल्यानंतर मिलिसेकंद; उघडे मेनू आणि कीबोर्ड वापरात पट्टी दिसत राहते."
+
+#: prefs.js
+msgid "Shortcut: Super + Ctrl + B"
+msgstr "शॉर्टकट: Super + Ctrl + B"
+
+#: prefs.js
+msgid "Reveal or hide temporarily. Disabled in true fullscreen; press Super to use the overview."
+msgstr "तात्पुरते दाखवा किंवा लपवा. खऱ्या पूर्ण स्क्रीनमध्ये बंद; विहंगावलोकनासाठी Super दाबा."
